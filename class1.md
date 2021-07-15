@@ -65,10 +65,37 @@ You may not need it in this case but it serves as a demonstration why brute forc
 4. Always create test files for redirection
 
 ## [Full solution](https://github.com/miyagi-sensei/j212/blob/main/v1.cpp)
-Insight: Each tile (x, y) can be painted by 3 paint jobs: (R, x-y+1), (G, y), (B, N-x+1)
-![blank](demo.jpg)
+Insight: Each tile (x, y) can only be painted by 3 paint jobs. What are they?
+
+![blank](demo.png)<br>
 ![(2,1)](demo2_1.jpg)
 ![(4,2)](demo4_2.jpg)
+> (R, x-y+1), (G, y), (B, N-x+1)
+
+### Testing Skills
+- code like function `print_wall()` can be super handy in the testing process
+
+### Workflow
+- try to write the easier part first and fill in the harder parts incrementally
+
+### Bad Habits
+- some code is more prone to mistakes:
+   - Using 1 big 2D array for paint jobs rank instead of 3 arrays (`PaintRank[][]` instead of `Red[], Blue[], Green[]`)
+     - this creates the mental burden of remembering 0, 1, 2 corresponds to red, blue and green instead of red, green and blue => increases chance of mistakes
+- typing input instead of redirecting from text files
+   - typos increase chances for devastating confusion
+   - eliminating these pitfalls streamline your development process
+
+### What if we can't figure out what kind of cases our program fails?
+> Most of the time *when* does it fail is a lot harder to find than fixing the bug itself
+
+[stress test scripting](https://github.com/miyagi-sensei/j212/blob/main/stress.sh) and [random input generator](https://github.com/miyagi-sensei/j212/blob/main/gen.py) help us search for the point of failure, making it easier to pinpoint the bugs in the code.
+
+### Inspection Skills
+- Narrow down to the "R" case. Inspect all 3 values: `Red[ri], Blue[bi], Green[gi]`
+- Know what you're expecting and ask why you're not getting what's expected
+- If something goes wrong, don't spend too much time staring at the code. Inspect something quick to narrow the scope of your investigation.
+  - e.g. print out arrays `Red[], Blue[], Green[]`
 
 
 ---
