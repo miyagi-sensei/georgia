@@ -66,6 +66,9 @@ You may not need it in this case but it serves as a demonstration why brute forc
 
 ## [Full solution](https://github.com/miyagi-sensei/j212/blob/main/v1.cpp)
 Insight: Each tile (x, y) can be painted by 3 paint jobs: (R, x-y+1), (G, y), (B, N-x+1)
+![blank](demo.jpg)
+![(2,1)](demo2_1.jpg)
+![(4,2)](demo4_2.jpg)
 
 
 ---
