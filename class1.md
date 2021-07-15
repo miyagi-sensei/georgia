@@ -39,3 +39,27 @@
 ## Analytical Skills
 1. Drawing Skills (first on paper, then in your mind)
 2. Pseudocode and algorithm design
+
+---
+
+# j212 Paint the Floor
+## Problem Statement
+<br>
+<br>
+
+__________________________
+
+## Analyze sample tests
+What are the takeaways from each sample tests?
+1. __________________________
+2. __________________________
+3. __________________________
+
+## Brute force solution
+You may not need it in this case but it serves as a demonstration why brute force solution can be useful.
+
+## Coding best practices
+1. Conform your code logic to problem convention (start row/column index from 1)
+2. Why not *always* declare local varialbes i, j?
+3. Use of constants to streamline testing
+4. 
