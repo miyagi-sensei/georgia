@@ -56,7 +56,9 @@ What are the takeaways from each sample tests?
 3. __________________________
 
 ## [Brute force solution](https://github.com/miyagi-sensei/j212/blob/main/brute.cpp)
-You may not need it in this case but it serves as a demonstration why brute force solution can be useful.
+You may not need it in this case but it serves as a demonstration why brute force solution can be useful.<br>
+Time Complexity: O(N<sup>2</sup> + Q)<br>
+Space Complexity: O(N<sup>2</sup>)
 
 ## Coding best practices
 1. Conform your code logic to problem convention (start row/column index from 1)
@@ -71,6 +73,9 @@ Insight: Each tile (x, y) can only be painted by 3 paint jobs. What are they?
 ![(2,1)](demo2_1.jpg)
 ![(4,2)](demo4_2.jpg)
 > (R, x-y+1), (G, y), (B, N-x+1)
+
+Time Complexity: O(P + Q)<br>
+Space Complexity: O(N)
 
 ### Testing Skills
 - code like function `print_wall()` can be super handy in the testing process
@@ -109,3 +114,8 @@ We will go over a few more problems before we begin the real training
    - using brute force solution to help analysis of the problem
 2. s193
    - subtasking is your friend
+
+---
+
+# Homework
+
