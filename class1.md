@@ -55,7 +55,7 @@ What are the takeaways from each sample tests?
 2. __________________________
 3. __________________________
 
-## Brute force solution
+## [Brute force solution](https://github.com/miyagi-sensei/j212/blob/main/brute.cpp)
 You may not need it in this case but it serves as a demonstration why brute force solution can be useful.
 
 ## Coding best practices
@@ -63,6 +63,9 @@ You may not need it in this case but it serves as a demonstration why brute forc
 2. Why not *always* declare local varialbes i, j?
 3. Use of constants to streamline testing
 4. Always create test files for redirection
+
+## [Full solution](https://github.com/miyagi-sensei/j212/blob/main/v1.cpp)
+Insight: Each tile (x, y) can be painted by 3 paint jobs: (R, x-y+1), (G, y), (B, N-x+1)
 
 
 ---
