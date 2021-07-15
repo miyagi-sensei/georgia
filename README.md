@@ -1,6 +1,7 @@
 # HKOI Training
 
 My name: Haye Chan
+
 My email: haye@miyagiacademy.com
 
 Everyone get a github account so I can turn this repo private.
