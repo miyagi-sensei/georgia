@@ -118,4 +118,37 @@ We will go over a few more problems before we begin the real training
 ---
 
 # Homework
+## Permutations
+- Input: `N (2 ≤ N ≤ 10)`
+- Generate all permutations of `N` numbers from `0` to `N-1`. The output for `N=9` would look like this (but not necessarily in this order:
+```
+0 1 2 3 4 5 6 7 8
+0 1 2 3 4 5 6 8 7
+0 1 2 3 4 5 7 6 8
+0 1 2 3 4 5 7 8 6
+...
+8 7 6 5 4 3 2 0 1
+8 7 6 5 4 3 2 1 0
+```
+- See [template](https://replit.com/@haye/dgs#permutations.cpp)
+- [01031](https://judge.hkoi.org/task/01031) asks you to generate permutations in lexicographic order when there are duplicates, which is much harder. If you're up for a challenge, try it.
+
+## Combinations
+- Input: `N C` `(2 ≤ N ≤ 10, 1 ≤ C ≤ N)`
+- Generate all the ways to choose `C` numbers from `0` to `N-1`. The output for `N=5, C=3` would look like this (but not necessarily in this order:
+```
+0 1 2
+0 1 3
+0 1 4
+0 1 5
+0 2 3
+0 2 4
+0 3 4
+1 2 3
+1 2 4
+1 3 4
+2 3 4
+```
+- See [template](https://replit.com/@haye/dgs#combinations.cpp)
+- [01037](https://judge.hkoi.org/task/01037) asks you to generate combinations in lexicographic order when there are duplicates, which is much harder. If you're up for a challenge, try it.
 
