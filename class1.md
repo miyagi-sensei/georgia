@@ -95,7 +95,7 @@ Space Complexity: O(N)
    - eliminating these pitfalls streamline your development process
 
 ### What if we can't figure out what kind of cases our program fails?
-> Most of the time *when* does it fail is a lot harder to find than fixing the bug itself
+> For the most part, *when* does it fail is a lot harder to find than fixing the bug itself
 
 [stress test scripting](https://github.com/miyagi-sensei/j212/blob/main/stress.sh) and [random input generator](https://github.com/miyagi-sensei/j212/blob/main/gen.py) help us search for the point of failure, making it easier to pinpoint the bugs in the code.
 
