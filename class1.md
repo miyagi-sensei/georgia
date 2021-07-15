@@ -60,7 +60,7 @@ You may not need it in this case but it serves as a demonstration why brute forc
 Time Complexity: O(N<sup>2</sup> + Q)<br>
 Space Complexity: O(N<sup>2</sup>)
 
-## Coding best practices
+### Coding best practices
 1. Conform your code logic to problem convention (start row/column index from 1)
 2. Why not *always* declare local varialbes i, j?
 3. Use of constants to streamline testing
