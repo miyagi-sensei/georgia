@@ -9,9 +9,9 @@
                           *****
                        ***********
                     * Convex Hull  *
-                   ** Suffix Tree  **
-                 ******** RMQ  ********
-               ********** DSU  ********** 
+                  *** Suffix Tree  ***
+                ********* RMQ  *********
+              *********** DSU  ***********
             ********* Graph Theory *********
           ******* Dynamic Programming ********
         ************ Data Structure ************
@@ -77,6 +77,9 @@ Insight: Each tile (x, y) can only be painted by 3 paint jobs. What are they?
 
 ### Workflow
 - try to write the easier part first and fill in the harder parts incrementally
+- compile test frequently, incrementally. don't write too much code without testing
+- `g++ code.cpp` compiles `code.cpp` into `a.out` (or `a.exe` on Windows PC)
+- then `./a.out < in.txt` runs the program and redirects contents of `in.txt` as input
 
 ### Bad Habits
 - some code is more prone to mistakes:
