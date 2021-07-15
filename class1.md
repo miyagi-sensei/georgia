@@ -63,3 +63,14 @@ You may not need it in this case but it serves as a demonstration why brute forc
 2. Why not *always* declare local varialbes i, j?
 3. Use of constants to streamline testing
 4. Always create test files for redirection
+
+
+---
+
+# Preview
+We will go over a few more problems before we begin the real training
+1. j213 
+   - some brute force solutions are harder to write
+   - using brute force solution to help analysis of the problem
+2. s193
+   - subtasking is your friend
