@@ -97,7 +97,6 @@ Insight: Each tile (x, y) can only be painted by 3 paint jobs. What are they?
 - If something goes wrong, don't spend too much time staring at the code. Inspect something quick to narrow the scope of your investigation.
   - e.g. print out arrays `Red[], Blue[], Green[]`
 
-
 ---
 
 # Preview
