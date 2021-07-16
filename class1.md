@@ -8,9 +8,9 @@
 ```
                           *****
                        ***********
-                    * Convex Hull  *
-                  *** Suffix Tree  ***
-                ********* RMQ  *********
+                    * Convex Hull **
+                  *** Suffix Tree ****
+                ** RMQ, segment tree ***
               *********** DSU  ***********
             ********* Graph Theory *********
           ******* Dynamic Programming ********
