@@ -76,6 +76,7 @@ Insight: Each tile (x, y) can only be painted by 3 paint jobs. What are they?
 ![blank](demo.png)<br>
 ![(2,1)](demo2_1.jpg)
 ![(4,2)](demo4_2.jpg)
+
 Each tile (x, y) can only be painted by: (R, x-y+1), (G, y), (B, N-x+1)
 
 Time Complexity: O(P + Q)<br>
