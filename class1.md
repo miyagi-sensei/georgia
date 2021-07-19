@@ -119,6 +119,7 @@ We will go over a few more problems before we begin the real training
 ---
 
 # Homework
+## Create an account on replit.com and join our [class project](https://replit.com/join/uwceqhpeby-haye)
 ## Permutations
 - Input: `N (2 ≤ N ≤ 10)`
 - Generate all permutations of `N` numbers from `0` to `N-1`. The output for `N=9` would look like this (but not necessarily in this order:
@@ -131,7 +132,7 @@ We will go over a few more problems before we begin the real training
 8 7 6 5 4 3 2 0 1
 8 7 6 5 4 3 2 1 0
 ```
-- See [template](https://replit.com/@haye/dgs#permutations.cpp)
+- See [template](permutations.cpp)
 - [01031](https://judge.hkoi.org/task/01031) asks you to generate permutations in lexicographic order when there are duplicates, which is much harder. If you're up for a challenge, try it.
 
 ## Combinations
@@ -150,6 +151,7 @@ We will go over a few more problems before we begin the real training
 1 3 4
 2 3 4
 ```
-- See [template](https://replit.com/@haye/dgs#combinations.cpp)
+- See [template](combinations.cpp)
 - [01037](https://judge.hkoi.org/task/01037) asks you to generate combinations in lexicographic order when there are duplicates, which is much harder. If you're up for a challenge, try it.
+- Submit the homework by sending me links to your code on replit
 
