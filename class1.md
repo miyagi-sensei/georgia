@@ -16,7 +16,7 @@
           ******* Dynamic Programming ********
         ************ Data Structure ************
       ****** Divide & Conquer, Greedy, etc. ******
-    ************ searching and sorting *************
+    ******** Searching and Sorting, DFS, BFS *******
   ***** Combinatorics, Logic and boolean algebra *****
 ***** Coding mechanics (loops, control flow, etc.) *****
 ```
