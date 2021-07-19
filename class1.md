@@ -1,9 +1,4 @@
 # Class 1
-## Key Skills:
-- Coding is mostly about managing complexity of your code.
-- Keep it *dumb*. Optimize for development (most of the time). 
-- Can you accurately assess your skill when confronting a problem, and thus assess the risk you're taking in each step of the way?
- 
 ## Pyramid of OI
 ```
                           ****
@@ -36,6 +31,12 @@
 6. Bugs Hunting Script
 
 
+## Coding Tips
+- Manage complexity of your code.
+- Keep it *dumb*. Optimize for development (most of the time). 
+- Accurately assess your skill level, and thus assess risk when solving a problem.
+ 
+
 ## Analytical Skills
 1. Drawing Skills (first on paper, then in your mind)
 2. Pseudocode and algorithm design
@@ -57,14 +58,17 @@ What are the takeaways from each sample tests?
 
 ## [Brute force solution](https://github.com/miyagi-sensei/j212/blob/main/brute.cpp)
 You may not need it in this case but it serves as a demonstration why brute force solution can be useful.<br>
-Time Complexity: O(N<sup>2</sup> + Q)<br>
+Time Complexity: O(N<sup>2</sup> + P + Q)<br>
 Space Complexity: O(N<sup>2</sup>)
 
-### Coding best practices
-1. Conform your code logic to problem convention (start row/column index from 1)
-2. Why not *always* declare local varialbes i, j?
-3. Use of constants to streamline testing
-4. Always create test files for redirection
+> ### Coding best practices
+> 1. Conform your code logic to problem convention (start row/column index from 1)
+> 2. Why not *always* declare local varialbes i, j?
+> 3. Use of constants to streamline testing
+> 4. Always create test files for redirection
+
+> ### Testing Skills
+> - code like function `print_wall()` can be super handy in the testing process
 
 ## [Full solution](https://github.com/miyagi-sensei/j212/blob/main/v1.cpp)
 Insight: Each tile (x, y) can only be painted by 3 paint jobs. What are they?
@@ -77,33 +81,29 @@ Insight: Each tile (x, y) can only be painted by 3 paint jobs. What are they?
 Time Complexity: O(P + Q)<br>
 Space Complexity: O(N)
 
-### Testing Skills
-- code like function `print_wall()` can be super handy in the testing process
+> ### Workflow
+> - try to write the easier part first and fill in the harder parts incrementally
+> - compile test frequently, incrementally. don't write too much code without testing
+> - `g++ code.cpp` compiles `code.cpp` into `a.out` (or `a.exe` on Windows PC)
+> - then `./a.out < in.txt` runs the program and redirects contents of `in.txt` as input
 
-### Workflow
-- try to write the easier part first and fill in the harder parts incrementally
-- compile test frequently, incrementally. don't write too much code without testing
-- `g++ code.cpp` compiles `code.cpp` into `a.out` (or `a.exe` on Windows PC)
-- then `./a.out < in.txt` runs the program and redirects contents of `in.txt` as input
+> ### Bad Habits
+> - some code is more prone to mistakes:
+>   - Using 1 big 2D array for paint jobs rank instead of 3 arrays (`PaintRank[][]` instead of `Red[], Blue[], Green[]`)
+>     - this creates the mental burden of remembering 0, 1, 2 corresponds to red, blue and green instead of red, green and blue => increases chance of mistakes
+> - typing input instead of redirecting from text files
+>   - typos increase chances for devastating confusion
+>   - eliminating these pitfalls streamline your development process
 
-### Bad Habits
-- some code is more prone to mistakes:
-   - Using 1 big 2D array for paint jobs rank instead of 3 arrays (`PaintRank[][]` instead of `Red[], Blue[], Green[]`)
-     - this creates the mental burden of remembering 0, 1, 2 corresponds to red, blue and green instead of red, green and blue => increases chance of mistakes
-- typing input instead of redirecting from text files
-   - typos increase chances for devastating confusion
-   - eliminating these pitfalls streamline your development process
-
-### What if we can't figure out what kind of cases our program fails?
+> ### What if we can't figure out what kind of cases our program fails?
 > For the most part, *when* does it fail is a lot harder to find than fixing the bug itself
+> [stress test scripting](https://github.com/miyagi-sensei/j212/blob/main/stress.sh) and [random input generator](https://github.com/miyagi-sensei/j212/blob/main/gen.py) help us search for the point of failure, making it easier to pinpoint the bugs in the code.
 
-[stress test scripting](https://github.com/miyagi-sensei/j212/blob/main/stress.sh) and [random input generator](https://github.com/miyagi-sensei/j212/blob/main/gen.py) help us search for the point of failure, making it easier to pinpoint the bugs in the code.
-
-### Inspection Skills
-- Narrow down to the "R" case. Inspect all 3 values: `Red[ri], Blue[bi], Green[gi]`
-- Know what you're expecting and ask why you're not getting what's expected
-- If something goes wrong, don't spend too much time staring at the code. Inspect something quick to narrow the scope of your investigation.
-  - e.g. print out arrays `Red[], Blue[], Green[]`
+> ### Inspection Skills
+> - Narrow down to the "R" case. Inspect all 3 values: `Red[ri], Blue[bi], Green[gi]`
+> - Know what you're expecting and ask why you're not getting what's expected
+> - If something goes wrong, don't spend too much time staring at the code. Inspect something quick to narrow the scope of your investigation.
+>   - e.g. print out arrays `Red[], Blue[], Green[]`
 
 ---
 
