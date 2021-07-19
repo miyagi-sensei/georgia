@@ -6,8 +6,8 @@
  
 ## Pyramid of OI
 ```
-                          *****
-                       ***********
+                          ****
+                       **********
                     * Convex Hull **
                   *** Suffix Tree ****
                 ** RMQ, segment tree ***
