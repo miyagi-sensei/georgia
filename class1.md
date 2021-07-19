@@ -76,7 +76,7 @@ Insight: Each tile (x, y) can only be painted by 3 paint jobs. What are they?
 ![blank](demo.png)<br>
 ![(2,1)](demo2_1.jpg)
 ![(4,2)](demo4_2.jpg)
-> (R, x-y+1), (G, y), (B, N-x+1)
+Each tile (x, y) can only be painted by: (R, x-y+1), (G, y), (B, N-x+1)
 
 Time Complexity: O(P + Q)<br>
 Space Complexity: O(N)
@@ -88,6 +88,7 @@ Space Complexity: O(N)
 > - then `./a.out < in.txt` runs the program and redirects contents of `in.txt` as input
 
 > ### Bad Habits
+> - confusing Cartesian grid with row/column convention. always be vigilant and meticulous about conventions
 > - some code is more prone to mistakes:
 >   - Using 1 big 2D array for paint jobs rank instead of 3 arrays (`PaintRank[][]` instead of `Red[], Blue[], Green[]`)
 >     - this creates the mental burden of remembering 0, 1, 2 corresponds to red, blue and green instead of red, green and blue => increases chance of mistakes
