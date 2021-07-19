@@ -8,8 +8,8 @@
 ```
                           ****
                        **********
-                    * Convex Hull **
-                  *** Suffix Tree ****
+                    * Suffix Tree **
+                  *** Convex Hull ****
                 ** RMQ, segment tree ***
               *********** DSU  ***********
             ********* Graph Theory *********
