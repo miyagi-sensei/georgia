@@ -45,9 +45,9 @@
 
 # j212 Paint the Floor
 ## Problem Statement
-<br>
-<br>
-
+A triangular wall has N rows.
+There are P paint jobs in this format: (color, l) ---- (color can be 'R', 'G', 'B')
+There are Q queries on the color of tile (r, c)
 __________________________
 
 ## Analyze sample tests
