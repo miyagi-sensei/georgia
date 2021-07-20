@@ -144,7 +144,6 @@ We will go over a few more problems before we begin the real training
 0 1 2
 0 1 3
 0 1 4
-0 1 5
 0 2 3
 0 2 4
 0 3 4
