@@ -58,6 +58,7 @@ Greedy goes pretty far
 ### Subtask 6
 But as usual, greedy can lead you astray sometimes. You take one wrong turn early on and you missed the optimal solution forever. This happens when R x C is odd.
 Think about `3 5 6` versus `3 5 7` as input.
+![](subtask6.jpeg)
 
 ### `bitset` exercise
 Try to use `bitset` the represent the wall as an exercise. See [here](https://www.cplusplus.com/reference/bitset/bitset/?kw=bitset) for references on how to use `bitset`. 
