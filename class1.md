@@ -58,7 +58,7 @@ What are the takeaways from each sample tests?
 
 ## [Brute force solution](https://github.com/miyagi-sensei/j212/blob/main/brute.cpp)
 You may not need it in this case but it serves as a demonstration why brute force solution can be useful.<br>
-Time Complexity: O(N<sup>2</sup> + P + Q)<br>
+Time Complexity: O(N*P + Q)<br>
 Space Complexity: O(N<sup>2</sup>)
 
 > ### Coding best practices
