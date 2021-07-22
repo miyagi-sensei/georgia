@@ -85,7 +85,7 @@ Space Complexity: O(N)
 > ### Workflow
 > - try to write the easier part first and fill in the harder parts incrementally
 > - compile test frequently, incrementally. don't write too much code without testing
-> - `g++ code.cpp` compiles `code.cpp` into `a.out` (or `a.exe` on Windows PC)
+> - `g++ code.cpp` compiles `code.cpp` into `a.out` (or `a.exe` on Windows PC). Sometimes `g++ -std=c++11 code.cpp` if you use C++11 syntax.
 > - then `./a.out < in.txt` runs the program and redirects contents of `in.txt` as input
 
 > ### Bad Habits
