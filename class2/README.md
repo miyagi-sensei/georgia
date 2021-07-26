@@ -38,7 +38,7 @@ __________________________
 - Don't worry about how many Online Judge problems you've checked off
 - Payoff for some practice don't come immediately
 
-### [Brute force solution](https://github.com/miyagi-sensei/j213/blob/main/brute.cpp)
+### [Brute force solution](https://github.com/miyagi-sensei/j213/blob/main/brute.cpp) (or [python3 version](https://github.com/miyagi-sensei/j213/blob/main/brute.py))
 - The code you've written in the combinations homework is handy for the brute force solution.
 - Picking N out of 9 numbers is the same as picking N cells out of a 3x3 grid.
 - Picking N out of R * C numbers is the same as picking N cells out of a R x C grid.
