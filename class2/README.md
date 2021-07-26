@@ -72,4 +72,4 @@ Try to use `bitset` to represent the wall as an exercise. See [here](https://www
 
 # Homework
 - How many points in j213 can you score? (I expect at least 13.)
-- Send me your best work on j213 over Discord. (Send a link that points to your source code on your own replit project)
+- Send me your best work on j213 over Discord. (Send a link that points to your source code on your own replit project, like this: https://replit.com/@haye/dgs#j213/brute.cpp)
