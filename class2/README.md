@@ -1,5 +1,8 @@
 # Class 2
 ## Homework from last time
+- [solution](comb.cpp) for [01037](https://judge.hkoi.org/task/01031)
+- [solution](permute.cpp) for [01031](https://judge.hkoi.org/task/01037) - quite hard. (raise your hand in Discord if you want me to explain it)
+
 ### Problem Statement Submissions
 1. It's a tool for yourself. You don't write it for anybody else.
 2. The problem statement that helps your development process the most is the best one. 
