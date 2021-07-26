@@ -15,8 +15,6 @@ Useful for brute force solution
 ### Combinations
 Even more relevant for brute force solution
 
-What about those who didn't submit homework? A dog ate it?
-
 > ## Workflow review
 > - try to write the easier part first and fill in the harder parts incrementally
 > - compile test frequently, incrementally. don't write too much code without testing
@@ -26,23 +24,21 @@ What about those who didn't submit homework? A dog ate it?
 ---
 
 ## j213 Paint the Wall
-Please send me the problem statement and sample tests analysis over Discord.
+Please send me the problem statement over Discord. No need to write down sample test analysis this time.
 ### Problem Statement
+Maximize the number of *contrasts* in an `R x C` grid
 <br><br>
 __________________________
 
-### Analyze sample tests
-What are the takeaways from each sample tests?
-
-1. __________________________
-2. __________________________
-3. __________________________
-4. __________________________
+### Don't look at the wrong score board
+- Focus on your Final Event performance
+- Don't worry about how many Online Judge problems you've checked off
+- Payoff for some practice don't come immediately
 
 ### [Brute force solution](https://github.com/miyagi-sensei/j213/blob/main/brute.cpp)
-The code you've written in the combinations homework is handy for the brute force solution.
-Picking N out of 9 numbers is the same as picking N cells out of a 3x3 grid.
-Picking N out of R * C numbers is the same as picking N cells out of a R x C grid.
+- The code you've written in the combinations homework is handy for the brute force solution.
+- Picking N out of 9 numbers is the same as picking N cells out of a 3x3 grid.
+- Picking N out of R * C numbers is the same as picking N cells out of a R x C grid.
 
 ### Subtask 1
 Insight 1: To paint 5 cells black in a 1 x 7 white wall is the same as painting 2 cells white in a 1 x 7 black wall.
@@ -58,12 +54,22 @@ Greedy goes pretty far
 ### Subtask 6
 But as usual, greedy can lead you astray sometimes. You take one wrong turn early on and you missed the optimal solution forever. This happens when R x C is odd.
 Think about `3 5 6` versus `3 5 7` as input.
-![](subtask6.jpeg)
+
+### Greedy Approach
+- It optimizes for short term improvement.
+- But it often can lead you down the path of no return where the global optimal solution is missed
+- Long Term Greedy vs. Short Term Greedy and what it means for the training
 
 ### `bitset` exercise
-Try to use `bitset` the represent the wall as an exercise. See [here](https://www.cplusplus.com/reference/bitset/bitset/?kw=bitset) for references on how to use `bitset`. 
+Try to use `bitset` to represent the wall as an exercise. See [here](https://www.cplusplus.com/reference/bitset/bitset/?kw=bitset) for references on how to use `bitset`. 
 
-## Risk Management
-### Value of Brute force solution:
-- helps you come up with insight and ideas
-- if you are only interested in the ingenious solution, 
+### Value of Brute Force solution:
+- helps you analyze and then come up with insight and ideas
+- the path straight to an ingenious solution is a very risky path
+- Risk Management!
+
+---
+
+# Homework
+- How many points in j213 can you score? (I expect at least 13.)
+- Send me your best work on j213 over Discord. (Send a link that points to your source code on your own replit project)
