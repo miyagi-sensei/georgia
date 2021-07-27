@@ -29,7 +29,6 @@ Even more relevant for brute force solution
 ## j213 Paint the Wall
 Please send me the problem statement over Discord. No need to write down sample test analysis this time.
 ### Problem Statement
-Maximize the number of *contrasts* in an `R x C` grid
 <br><br>
 __________________________
 
