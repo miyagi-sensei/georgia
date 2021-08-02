@@ -34,9 +34,11 @@ But more important is the formulation of prime factorization:
 - f(n): prints all prime factors of `n`
 - if `k` is a prime factor of `n`, then<br>
     f(n) = prints "k " and call f(n / k)
+- if `n` has no factor (i.e. it's prime), then<br>
+    f(n) = prints "n"
 - Note the smallest factor of `n` happens to be a prime factor
 
-This is called the recursive definition of problem.
+This is called the recursive definition of a problem.
 > Recursion is a way of defining a problem in terms of *a simpler version* of itself.
 
 The ability to define a problem recursively is powerful for many OI problems.
@@ -54,7 +56,7 @@ Given: W<sub>4</sub> > W<sub>2</sub>, N<sub>9</sub> > N<sub>6</sub> > N<sub>4</s
 - minimize X<sub>2</sub>\*W<sub>2</sub> + X<sub>4</sub>\*W<sub>4</sub>
 - constraint: 2\*X<sub>2</sub> + 4\*X<sub>4</sub> ≥ X
 
-solution: can use greedy approach. check whether W2 or W4 has the lowest unit cost and the proceed accordingly.
+solution: can use greedy approach. check whether W<sub>2</sub> or W<sub>4</sub> has the lowest unit cost and the proceed accordingly.
 
 ### Subtask 2 Problem Statement:
 - maximize 2\*X<sub>2</sub> + 4\*X<sub>4</sub>
@@ -66,8 +68,10 @@ solution: can use greedy approach. first buy the packs with the lowest unit cost
 - minimize X<sub>4</sub>\*N<sub>4</sub> + X<sub>6</sub>\*N<sub>6</sub> + X<sub>9</sub>\*N<sub>9</sub>
 - constraint: 4\*X<sub>4</sub> + 6\*X<sub>6</sub> + 9\*X<sub>9</sub> ≥ X
 
-In Sample Test 3, if `X = 10` or `X = 19`, we have a problem. Even though N<sub>9</sub> has the lowest unit cost, buying a 9-pack lead you astray. 
-> Sometimes you have to choose to do what is suboptimal in the short term in order to get the most optimal outcome in the long term.
+Can we use the greedy approach?
+
+In Sample Test 3 (N<sub>4</sub> = 14, N<sub>6</sub> = 21 and N<sub>9</sub> = 27), if `X = 10` or `X = 19`, we have a problem. Even though N<sub>9</sub> has the lowest unit cost, buying a 9-pack lead you astray. 
+> Sometimes you have to choose to do what is suboptimal in the short term in order to get the optimal outcome in the long term.
 
 You have to try all possibilities. (brute force?)
 
@@ -76,7 +80,7 @@ You have to try all possibilities. (brute force?)
 - f(X) = min( N<sub>4</sub>+f(X-4), N<sub>6</sub>+f(X-6), N<sub>9</sub>+f(X-9) )
 - primtives: for X ≤ 0, f(X) = 0
 
-> it performs lots of redundant search down the tree but because `X` is small, a naive brute force search would nonetheless score the 26 points.
+> it performs lots of redundant search down the tree but because `X` is small, a naive brute force search would score the subtask.
 
 Implementation:
 ```
