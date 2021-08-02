@@ -1,6 +1,7 @@
 # Class 2
 ## Homework from last time
 - [solution](comb.cpp) for [01037 combinations](https://judge.hkoi.org/task/01037)
+- [naive generation of permutations](permute2.cpp) - doesn't solve [01031 permutations](https://judge.hkoi.org/task/01031)
 - [solution](permute.cpp) for [01031 permutations](https://judge.hkoi.org/task/01031) - quite hard. (raise your hand in Discord if you want me to explain it)
 
 ### Problem Statement Submissions
