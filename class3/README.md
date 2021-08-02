@@ -130,6 +130,6 @@ Formulation:
 
 ---
 
-# Homework
+# Homework (Optional)
 - [j181 Wings and Nuggets](https://judge.hkoi.org/task/J181)
-- [More Fibonacci Sequence Exercise](https://judge.hkoi.org/task/M1323) - not exactly related to recursive formula but a fun brain-teaser nonetheless
+- Extra Credit: [More Fibonacci Sequence Exercise](https://judge.hkoi.org/task/M1323) - not exactly related to recursive formula but a fun brain-teaser nonetheless
