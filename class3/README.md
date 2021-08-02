@@ -12,6 +12,10 @@
 ### `bitset` refactoring
 declare `bitset<101> wall[101]` instead of `bool wall[101][101]` and that's it!
 
+### Optimize for development time
+- During competition, your priority is to optimize for development time, although that's not necessarily a good way to practice.
+- Would this approach ([partial solution](https://github.com/miyagi-sensei/j213/blob/main/v1.cpp), [full solution](https://github.com/miyagi-sensei/j213/blob/main/v2.cpp)] be easier to write, i.e. more optimized for development time?
+
 ## Recursion
 [D205 Prime factorization](https://judge.hkoi.org/task/D205) can be solved recursively. It's an important way of solving a problem in computer science. You may be able to solve it in many ways but the recursive way is instructive.
 ```
