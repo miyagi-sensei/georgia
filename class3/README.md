@@ -116,7 +116,7 @@ Most of the time you would need to initialize the memoization table to *impossib
 
 Formulation:
 - g(Y): the most nuggets Y dollars can buy
-- g(Y) = max( 4+g(Y-N<sub>4</sub>), 6+f(Y-N<sub>6</sub>), 9+f(Y-N<sub>9</sub>) )??
+- g(Y) = max( 4+g(Y-N<sub>4</sub>), 6+g(Y-N<sub>6</sub>), 9+g(Y-N<sub>9</sub>) )??
     need to make sure you don't go buy a pack of nuggets if you don't have the money
 - primtives: ???
 
