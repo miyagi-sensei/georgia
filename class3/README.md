@@ -1,5 +1,16 @@
 # Class 3
 ## Homework from last time
+### `^` : `xor` operator flips a bit
+|A|B|A ^ B
+|---|---|---
+|false|false|false
+|true|false|true
+|false|true|true
+|true|true|false
+> When B is false, it leaves A unchanged. When B is true, it "flips" A to the opposite. You can use `^` when you print the wall.
+
+### `bitset` refactoring
+declare `bitset<101> wall[101]` instead of `bool wall[101][101]` and that's it!
 
 ## Recursion
 [D205 Prime factorization](https://judge.hkoi.org/task/D205) can be solved recursively. It's an important way of solving a problem in computer science. You may be able to solve it in many ways but the recursive way is instructive.
