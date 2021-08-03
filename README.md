@@ -2,7 +2,11 @@
 
 My name: Haye Chan
 
-Everyone please get a github account so I can turn this repo private.
+If everyone get a github account then I can turn this repo private. (send me your github id)
+
+1. [Class 1 Notes](class1.md)
+2. [Class 2 Notes](class2/README.md)
+3. [Class 3 Notes](class3/README.md)
 
 ---
 
