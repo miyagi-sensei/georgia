@@ -102,10 +102,10 @@ int main() {
         cin >> id;
         if (search(id)) {
             cout << "out" << endl;
-            add(id);
+            erase(id);
         } else {
             cout << "in" << endl;
-            erase(id);
+            add(id);
         }
     }
 }
