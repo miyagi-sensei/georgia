@@ -147,4 +147,4 @@ But in practice `set` is often faster than `unordered_set` even though its compl
 ## [01090 Diligent](https://judge.hkoi.org/task/01090)
 ## [s184 Bogo Translate](https://judge.hkoi.org/task/s184)
 - Just solve subtask 2 (What really is subtask 2?)
-- you will need to use `map` or `unordered_map`. research it on cplusplus.com or see [map example](https://replit.com/@haye/dgs#s184/map_demo.cpp)
+- you will need to use `map` or `unordered_map`. research it on cplusplus.com or see [map example](map_demo.cpp)
