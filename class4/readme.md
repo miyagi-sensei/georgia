@@ -1,6 +1,7 @@
 # Class 4
 ## [j181 Wings and Nuggets](https://judge.hkoi.org/task/J181)
-- [solution: recursive implementation](https://github.com/miyagi-sensei/j181/blob/main/v1.cpp)<br>
+- [solution: recursive implementation](https://github.com/miyagi-sensei/j181/blob/main/v1.cpp)
+
 ![dfs tree](https://github.com/miyagi-sensei/georgia/blob/main/class3/j181.jpeg)
 - if you implement it with recursion, this is DFS (depth-first search)
 - What is the *time* complexity of subtask 3 and what is the complexity after using memoization table?
