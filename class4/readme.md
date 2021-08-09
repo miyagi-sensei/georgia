@@ -53,7 +53,7 @@ g(y):
     n3 = 9 + g(y - N9)
   return max(n1, n2, n3)
 ```
-- g(y)'s solution only relies on *smaller* problem of itself => simple one-directional
+- g(y)'s solution only relies on *smaller* problems of itself => simple one-directional
 - that means we can solve it in ascending order of y
 
 Code:
@@ -89,6 +89,8 @@ Assume i > j, then if we know both F<sub>j</sub> (which is given) and F<sub>j+1<
 If j = i - 4, we are given F<sub>i</sub> and F<sub>i-4</sub>, let's try to derive F<sub>i-3</sub>
 
 ![illustration](https://github.com/miyagi-sensei/georgia/blob/main/class4/m1323.jpeg)
+
+[solution](m1323.cpp)
 
 ## [01090 Diligent](https://judge.hkoi.org/task/01090)
 Use this template so you can understand data structure *abstraction* better:
