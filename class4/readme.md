@@ -118,6 +118,7 @@ A set is an abstract data type that:
 - can store values,
 - without any prarticular order,
 - without repeated values
+
 It's best to demonstrate set with some python code:
 ```
 >>> x = set('abracadabra')
