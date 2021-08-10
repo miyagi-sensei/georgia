@@ -2,6 +2,8 @@
 
 My name: Haye Chan
 
+Replit join link: https://replit.com/join/hhqvvajvqw-haye
+
 If everyone get a github account then I can turn this repo private. (send me your github id)
 
 1. [Class 1 Notes](class1.md)
