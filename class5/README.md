@@ -9,7 +9,7 @@
 ### Runtime Arithmetic
 When you're confronting a problem, you try to come up with an approach (algorithm) that works. But it's very important to be able to predict the runtime performance of an approach before you write the code.
 - You need to develop good intuition about runtime performance.
-- The tool for that is Big-O notation.
+- The tool Computer Scientist use to analyze time complexity is the Big-O notation.
 - The ability to quickly reckon the time complexity of an algorithm is the difference between bronze medal and silver medal.
 - You should know the runtime performance as soon as you finished designing your algorithm, before you write the first line of code
   
@@ -56,7 +56,7 @@ What about space complexity?
   
 What's the time complexity of the following pseudocode?
 ```
-declare wall as NxN 2D int array
+declare wall as NxN 2D int array and set it all to "white"
 for each of P paint jobs (color, l):
   perform the paint job
 for each of Q queries (r, c): 
@@ -87,8 +87,6 @@ Once again, estimate the runtime of this solution for the following cases:
 4. 1 ≤ N, P ≤ 200000; 1 ≤ Q ≤ 200000
 
 What about the space complexity of the above 2 solutions?
-  
-# Use j184 Mysterious Area to analyze time complexity
 
 ## [j184 Mysterious Area](https://judge.hkoi.org/task/j184)
 ### Problem Statement
