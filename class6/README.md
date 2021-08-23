@@ -1,14 +1,21 @@
 # Class 6
 ## Insertion Sort
 - [demo video](https://www.youtube.com/watch?v=OGzPmgsI-pQ)
-- [exercise](https://judge.hkoi.org/task/D803)
+- [exercise: D803](https://judge.hkoi.org/task/D803)
 - Time Complexity: O(N<sup>2</sup>)
 
 ## Bubble Sort
 - it only does 1 thing: compare adjacent numbers and swap them if the preceding element is larger
 - [demo video](https://www.youtube.com/watch?v=nmhjrI-aW5o)
-- [exercise](https://judge.hkoi.org/task/D802)
+- [exercise: D802](https://judge.hkoi.org/task/D802)
 - Time Complexity: O(N<sup>2</sup>)
+- easiest sort to write:
+```
+for (i=1; i<N; i++)
+    for (j=1; j<N; j++)
+        if (arr[j-1] > arr[j])
+            swap(arr[j-1], arr[j]);
+```
 
 ## MergeSort
 ```
@@ -33,7 +40,7 @@ def merge(a, b):
     c += b[j:]
     return c
 ```
-- [exercise in merging sorted arrays](https://judge.hkoi.org/task/D804)
+- [D804 merging sorted arrays](https://judge.hkoi.org/task/D804)
 
 Recursive formulation of MergeSort:
 ```
