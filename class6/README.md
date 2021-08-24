@@ -57,7 +57,7 @@ Recursive formulation of MergeSort:
 ```
 sort(arr) - sort arr[] and return the sorted array
 
-sort(arr) = merge( sort(left half of arr[], sort(right half of arr[] )
+sort(arr) = merge( sort(left half of arr[]), sort(right half of arr[]) )
 if arr is unitary (size 1), then returns arr
 ```
 Now sort this: {38, 27, 43, 3, 9, 82, 10}
