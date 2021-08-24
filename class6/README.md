@@ -7,13 +7,13 @@
 A[] - data to be sorted
 declare B[] as an array for the finished array
 for i in 0 to N-1:
-    insert A[i] to the appropriate place in B[] (hint, loop from the back of B[])
+    insert A[i] to the appropriate place in B[] (hint, loop from the back of B[]):
     for j from i-1 to 0:
+        B[j+1] = B[j]
         if A[i] >= B[j]:
             break
-        else:
-            B[j+1] = B[j]
-    B[j+1] = A[i]
+    j = max(0, j);
+    B[j] = A[i];
 ```
 ## Bubble Sort
 - it only does 1 thing: compare adjacent numbers and swap them if the preceding element is larger
