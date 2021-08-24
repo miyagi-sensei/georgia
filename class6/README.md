@@ -6,7 +6,7 @@
 ```
 A[] - data to be sorted
 declare B[] as an array for the finished array
-for i in 0 to N-1:
+for i from 0 to N-1:
     insert A[i] to the appropriate place in B[] (hint, loop from the back of B[]):
     for j from i-1 to 0:
         if A[i] < B[j]:
