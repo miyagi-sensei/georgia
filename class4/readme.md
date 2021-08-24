@@ -143,7 +143,7 @@ In C++, [`unordered_set`](https://www.cplusplus.com/reference/unordered_set/unor
 |add||O(1)|O(1)|O(logN)|
 |erase||O(N)|O(1)|O(logN)|
 
-But in practice `set` is often faster than `unordered_set` even though its complexity is worse. This demonstrates the relevance of "constant factor" in runtime. Also most of the time, O(logN) is not meaningfully different from O(N).
+But in practice `set` is often faster than `unordered_set` even though its complexity is worse. This demonstrates the relevance of "constant factor" in runtime. Also most of the time, O(logN) is not meaningfully different from O(1).
 
 ---
 
