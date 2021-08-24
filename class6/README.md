@@ -3,7 +3,12 @@
 - [demo video](https://www.youtube.com/watch?v=OGzPmgsI-pQ)
 - [exercise: D803](https://judge.hkoi.org/task/D803)
 - Time Complexity: O(N<sup>2</sup>)
-
+```
+A[] - data to be sorted
+declare B[] as an array for the finished array
+for i in 0 to N-1:
+    insert A[i] to the appropriate place in B[]
+```
 ## Bubble Sort
 - it only does 1 thing: compare adjacent numbers and swap them if the preceding element is larger
 - [demo video](https://www.youtube.com/watch?v=nmhjrI-aW5o)
