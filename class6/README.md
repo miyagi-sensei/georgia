@@ -13,7 +13,7 @@ for i in 0 to N-1:
             break
         else:
             B[j+1] = B[j]
-    B[j] = A[i]
+    B[j+1] = A[i]
 ```
 ## Bubble Sort
 - it only does 1 thing: compare adjacent numbers and swap them if the preceding element is larger
