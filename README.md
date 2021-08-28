@@ -8,6 +8,8 @@ If everyone get a github account then I can turn this repo private. (send me you
 2. [Class 2 Notes](class2/README.md)
 3. [Class 3 Notes](class3/README.md)
 4. [Class 4 Notes](class4/readme.md)
+5. [Class 5 Notes](class5/README.md)
+6. [Class 6 Notes](class6/README.md)
 
 ---
 
