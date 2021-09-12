@@ -11,5 +11,7 @@ Following are a list of the exercises extracted from the classes so far. They sh
 9. [d804 mergin sorted arrays](https://judge.hkoi.org/task/D804)
 10. [01068 moliu sorting](https://judge.hkoi.org/task/01068)
   - try solving in 4 ways: insertion sort, bubble sort, merge sort and finally solve it by calling the built-in `sort()` function
-11. [j184 subtask 1-3 using simulation](https://judge.hkoi.org/task/j184)
-12. [j184 full solution](https://judge.hkoi.org/task/j184) 
+11. [Diligent](https://judge.hkoi.org/task/01090)
+12. [s184 BOGO Translate](https://judge.hkoi.org/task/S184)
+13. [j184 subtask 1-3 using simulation](https://judge.hkoi.org/task/j184)
+14. [j184 full solution](https://judge.hkoi.org/task/j184) 
