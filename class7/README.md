@@ -1,4 +1,4 @@
-# Class 6
+# Class 7
 # [j173 - Fibonacci Word](https://judge.hkoi.org/task/j173)
 ```
 - F(1) = 0
