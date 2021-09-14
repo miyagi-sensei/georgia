@@ -36,6 +36,10 @@ precompute prefix_sum where prefix_sum[w][r] = occurences of w in F[1:r]
 for each query (Li, Ri, Wi):
   print prefix_sum[Wi][Ri] - prefix_sum[Wi][Li]
 ```
+if F[r]F[r+1] matches w: prefix_sum[w][r+1] = prefix_sum[w][r] + 1<br>
+otherwise: prefix_sum[w][r+1] = prefix_sum[w][r]
+
+Time complexity: O(Q).
 
 ---
 
