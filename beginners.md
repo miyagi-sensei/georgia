@@ -20,5 +20,6 @@ Following is a list of the exercises extracted from the classes so far. They sho
 17. [j213 Paint the Floor, subtask 1-3](https://judge.hkoi.org/task/j212) - see [Class 2 notes](https://github.com/miyagi-sensei/georgia/tree/main/class2)
 18. [j213 Paint the Floor, subtask 1-5](https://judge.hkoi.org/task/j212) - see [Class 2 notes](https://github.com/miyagi-sensei/georgia/tree/main/class2)
 
+After you finished each exercise, **don't forget to stop and review what you have learned from this exercise and ask yourself if you can write the code better**. Good coding style is the foundation for the whole journey, in the same way that good posture is foundational for a good golf swing.
 
 In the pop culture, for a while these fundamental drills are called "Wax on, wax off". If you want to know where it came from, right-click and download this [video](http://miyagiacademy.com/public/waxonwaxoff.mp4) and watch it.
