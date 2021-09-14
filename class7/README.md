@@ -47,7 +47,7 @@ Time complexity: O(Q).
 Can we solve the following problem?<br>
 Suppose `Li` = 1 in all queries and all `Ri` is a Fibonacci number.<br>
 Then we just need to solve the following problem:<br>
-count(w, i) - returns the number of occurrences of w in F[1:fib(i)]<br>
+count(w, i) - the number of occurrences of w in F[1:fib(i)]<br>
 where: fib(i) = the ith Fibnoacci number: fib(1) = 1, fib(2) = 2, fib(3) = 3, fib(4) = 5, fib(5) = 8, ...<br>
 |i|1|2|3|4|5|6|7|8|9|10|11|...|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -65,8 +65,8 @@ But also notice where F(6) and F(5) joins there is another "01" not accounted fo
 `count("01", 7) = count("01", 6) + count("01", 5) + [1]`
 > Remember optimization is needed since this is exponential time recursion. (DP)
 
-How can we use count(w, i) to solve the problem?
-solve(w, r) - returns the number of occurrences of w in F[1:r]
+How can we use count(w, i) to solve the problem?<br>
+solve(w, r) - the number of occurrences of w in F[1:r]
 ```
 0100101001001010010100100101001001...01001/0100101001001010010100100101...
    ^4  ^8  ^12                           ^89=f(10)                 ^r=114
