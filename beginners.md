@@ -3,7 +3,7 @@ Following is a list of the exercises extracted from the classes so far. They sho
 1. [D208](https://judge.hkoi.org/task/D208)
 2. [D201](https://judge.hkoi.org/task/D201)
 3. [D205](https://judge.hkoi.org/task/D205)
-4. [D401]
+4. [D401](https://judge.hkoi.org/task/D401)
 5. [j181 subtask 1 & 2](https://judge.hkoi.org/task/j181) - see [Class 3](https://github.com/miyagi-sensei/georgia/tree/main/class3)
 6. [j181 subtask 3](https://judge.hkoi.org/task/j181) - see [Class 3](https://github.com/miyagi-sensei/georgia/tree/main/class3) and [Class 4](https://github.com/miyagi-sensei/georgia/tree/main/class4) notes
 7. [j181 subtask 4](https://judge.hkoi.org/task/j181) - see [Class 3](https://github.com/miyagi-sensei/georgia/tree/main/class3) and [Class 4](https://github.com/miyagi-sensei/georgia/tree/main/class4) notes
