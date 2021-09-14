@@ -69,7 +69,7 @@ How can we use count(w, i) to solve the problem?
 solve(w, r) - returns the number of occurrences of w in F[1:r]
 ```
 0100101001001010010100100101001001...01001/0100101001001010010100100101...
-                                         ^89=f(10)                 ^r=114
+   ^4  ^8  ^12                           ^89=f(10)                 ^r=114
 ```
 we can break this problem into 2 parts:
 1. count up to the largest fibonacci number preceding r
@@ -85,8 +85,10 @@ solve(w, r) pseudocode:
 ```
   if r <= 1:
     return 0
-  find the fibonacci number immediately preceding r
-  i = the index of that fibonacci number, i.e. fib(i) < r <= fib(i+1)
+  elif r == 2:
+    return w == "01"
+  find the fibonacci number immediately preceding r and store its index in <i>
+  (i.e. fib(i) < r <= fib(i+1))
   return count(w, i) + solve(w, r - fib(i)) + (1 if the junction of F(i) and F(i-1) forms w)
 ```
 
