@@ -45,8 +45,13 @@ Time complexity: O(Q).
 
 ## Subtask 5
 Can we solve the following problem?<br>
-count(w, i) - returns the number of occurrences of w in F[1:fib(i)]?
+Suppose `Li` = 1 in all queries and all `Ri` is a Fibonacci number.<br>
+Then we just need to solve the following problem:<br>
+count(w, i) - returns the number of occurrences of w in F[1:fib(i)]<br>
 where: fib(i) = the ith Fibnoacci number: fib(1) = 1, fib(2) = 2, fib(3) = 3, fib(4) = 5, fib(5) = 8, ...<br>
+|i|1|2|3|4|5|6|7|8|9|10|11|...|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|fib(i)|1|2|3|5|8|13|21|34|55|89|144|...|
 
 ### Transition formula:
 count(w, i) = count(w, i-1) + count(w, i-2)?
@@ -56,7 +61,8 @@ for example: to solve count("01", 7), you need to count how many "01" is in F(6)
 ```
 F(7) = 0100101001001/01001010
 ```
-But also notice where F(6) and F(5) joins there is another "01" not accounted for.
+But also notice where F(6) and F(5) joins there is another "01" not accounted for.<br>
+`count("01", 7) = count("01", 6) + count("01", 5) + [1]`
 > Remember optimization is needed since this is exponential time recursion. (DP)
 
 How can we use count(w, i) to solve the problem?
