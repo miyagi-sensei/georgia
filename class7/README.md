@@ -44,10 +44,11 @@ Time complexity: O(Q).
 ---
 
 ## Subtask 5
+### Need an O(Q) solution. Nothing else would pass within 1s.
 Can we solve the following problem?<br>
 Suppose `Li` = 1 in all queries and all `Ri` is a Fibonacci number.<br>
 Then we just need to solve the following problem:<br>
-count(w, i) - the number of occurrences of w in F[1:fib(i)]<br>
+### count(w, i) - the number of occurrences of w in F[1:fib(i)]<br>
 where: fib(i) = the ith Fibnoacci number: fib(1) = 1, fib(2) = 2, fib(3) = 3, fib(4) = 5, fib(5) = 8, ...<br>
 |i|1|2|3|4|5|6|7|8|9|10|11|...|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
