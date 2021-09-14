@@ -10,7 +10,9 @@
 - F(7) = 010010100100101001010 (0100101001001/01001010)
 - F    = 0100101001001010010100100101001001....  (infinite length)
 ```
-There isn't any `11`.
+- There isn't any `11` (subtask 1 solved)
+- The length of Fibonacci word is the Fibonacci numbers, i.e. F(i) = fib(i)
+- The length of Fibonacci word grows exponentially because so does Fibonacci numbers
 
 ## Subtask 2
 ```
