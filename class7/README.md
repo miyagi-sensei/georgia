@@ -16,6 +16,7 @@
 
 ## Subtask 2
 ```
+generate F = F(17)
 for each query (Li, Ri, Wi):
   scan from F[Li] to F[Ri] and count occurrences of Wi
 ```
@@ -30,6 +31,7 @@ Practise this first: http://dptjudge.dgs.edu.hk/task/A005
 
 ## Subtask 3
 ```
+generate F = F(30)
 precompute prefix_sum where prefix_sum[w][r] = occurences of w in F[1:r]
 for each query (Li, Ri, Wi):
   print prefix_sum[Wi][Ri] - prefix_sum[Wi][Li]
