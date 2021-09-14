@@ -23,3 +23,5 @@ Following is a list of the exercises extracted from the classes so far. They sho
 After you finished each exercise, **don't forget to stop and review what you have learned from this exercise and ask yourself if you can write the code better**. Good coding style is the foundation for the whole journey, in the same way that good posture is foundational for a good golf swing.
 
 In the pop culture, for a while these fundamental drills are called "Wax on, wax off". If you want to know where it came from, right-click and download this [video](http://miyagiacademy.com/public/waxonwaxoff.mp4) and watch it.
+
+Or you can see those exercises as [piano exercises](https://www.youtube.com/watch?v=tQh3-WBzaKY). 
