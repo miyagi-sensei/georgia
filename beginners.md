@@ -1,5 +1,5 @@
 # Exercises recommended 
-Following are a list of the exercises extracted from the classes so far. They should be completed *in this order* if you think you're at the beginners level.
+Following is a list of the exercises extracted from the classes so far. They should be completed *in this order* if you think you're at the beginners level.
 1. [D208](https://judge.hkoi.org/task/D208)
 2. [D201](https://judge.hkoi.org/task/D201)
 3. [D205](https://judge.hkoi.org/task/D205)
@@ -16,3 +16,6 @@ Following are a list of the exercises extracted from the classes so far. They sh
 13. [j184: subtask 1-3 using simulation](https://judge.hkoi.org/task/j184) - see [Class 5 nots](https://github.com/miyagi-sensei/georgia/tree/main/class5)
 14. [j184: full solution](https://judge.hkoi.org/task/j184) - see [Class 5 nots](https://github.com/miyagi-sensei/georgia/tree/main/class5)
 15. [j212 Paint the Floor](https://judge.hkoi.org/task/j212) - see [Class 5 notes](https://github.com/miyagi-sensei/georgia/tree/main/class5)
+
+
+In the pop culture, for a while these fundamental drills are called "Wax on, wax off". If you want to know where it came from, right-click and download this [video](http://miyagiacademy.com/public/waxonwaxoff.mp4) and watch it.
