@@ -58,12 +58,12 @@ where: fib(i) = the ith Fibnoacci number: fib(1) = 1, fib(2) = 2, fib(3) = 3, fi
 count(w, i) = count(w, i-1) + count(w, i-2)?
 - if tail of count(w, i-1) and head of count(w, i-2) matches w, need to add 1
 
-for example: to solve count("01", 7), you need to count how many "01" is in F(6) and in F(5) first.
+for example: to solve count("10", 7), you need to count how many "10" is in F(6) and in F(5) first.
 ```
 F(7) = 0100101001001/01001010
 ```
-But also notice where F(6) and F(5) joins there is another "01" not accounted for.<br>
-`count("01", 7) = count("01", 6) + count("01", 5) + [1]`
+But also notice where F(6) and F(5) joins there is another "10" not accounted for.<br>
+`count("10", 7) = count("10", 6) + count("10", 5) + [1]`
 > Remember optimization is needed since this is exponential time recursion. (DP)
 
 How can we use count(w, i) to solve the problem?<br>
