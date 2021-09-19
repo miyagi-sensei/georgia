@@ -1,5 +1,11 @@
-# [01068 Moliu Sorting](https://judge.hkoi.org/task/01068)
-## `pair`
+# Class 8
+## [j173 Fibonacci Word](https://judge.hkoi.org/task/J173)
+- [brute force solution](https://github.com/miyagi-sensei/georgia/blob/main/class8/brute.py)
+- [full solution](https://github.com/miyagi-sensei/georgia/blob/main/class8/p1.py) (It won't score 100pts because it's python. If you turn it into C++ code it will easily score pass)
+- [full solution](https://github.com/miyagi-sensei/georgia/blob/main/class8/p2.py) (It uses bisect_left built-in binary search instead of linear search and scores 100)
+
+## [01068 Moliu Sorting](https://judge.hkoi.org/task/01068)
+### `pair`
 - `pair` allows us to handle pairs of data
 - super handy in HKOI/IOI for dealing with (x, y) coordinates or many other situations
 - declare `pair<int, int>`
@@ -95,3 +101,91 @@ void mergesort(int l, int r){
     }
 }
 ```
+### built-in `sort()` function
+"hacking" with nested `pair`, taking advantage of the way `sort()` orders based on the `first` of the `pair`
+```
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int N;
+pair<long long, pair<int, int> > A[100];
+
+int main()
+{
+    int i, j, x, y;
+    cin >> N;
+    for (i=0; i<N; i++) {
+        cin >> x >> y;
+        A[i] = {(long long)x*x + (long long)y*y, {x, y}};
+    }
+    sort(A, A+N);
+    for (i=0; i<N; i++) {
+        cout << A[i].second.first << " " << A[i].second.second << endl;
+    }
+    return 0;
+}
+```
+### using built-in `sort()` to create a ranked index first
+```
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int N;
+pair<int, int> A[100];
+pair<long long, int> Ranks[100];
+
+int main()
+{
+    int i, j, x, y;
+    cin >> N;
+    for (i=0; i<N; i++) {
+        cin >> x >> y;
+        A[i] = {x, y};
+        Ranks[i] = {(long long) x * x + (long long)y * y, i};
+    }
+    sort(Ranks, Ranks+N);
+    for (i=0; i<N; i++) {
+        j = Ranks[i].second;
+        cout << A[j].first << " " << A[j].second << endl;
+    }
+    return 0;
+}
+```
+### using built-in `sort()` with a custom compare function
+```
+#include <iostream>
+#include <algorithm>
+using namespace std;
+typedef long long ll;  // very convenient trick
+
+int N;
+pair<ll, ll> A[100];
+
+bool comp(pair<ll, ll> x, pair<ll, ll> y) {
+    ll ix = x.first * x.first + x.second * x.second;
+    ll iy = y.first * y.first + y.second * y.second;
+    return ix < iy;
+}
+
+int main()
+{
+    int i, j, x, y;
+    cin >> N;
+    for (i=0; i<N; i++) {
+        cin >> x >> y;
+        A[i] = {x, y};
+    }
+    sort(A, A+N, comp);
+    for (i=0; i<N; i++) {
+        cout << A[i].first << " " << A[i].second << endl;
+    }
+    return 0;
+}
+```
+
+---
+
+# Make good use of [01068 Moliu Sorting](https://judge.hkoi.org/task/01068)
+- Regularly practice writing insertion sort until you can do it with ease
