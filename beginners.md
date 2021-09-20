@@ -18,7 +18,7 @@ Following is a list of the exercises extracted from the classes so far. They sho
 15. [j184: full solution](https://judge.hkoi.org/task/j184) - it's okay if you find this too challenging
 16. [j212 Paint the Floor](https://judge.hkoi.org/task/j212) - see [Class 5 notes](https://github.com/miyagi-sensei/georgia/tree/main/class5#j212-paint-the-floor)
 17. [j213 Paint the Wall, subtask 1-3](https://judge.hkoi.org/task/j213) - see [Class 2 notes](https://github.com/miyagi-sensei/georgia/tree/main/class2#j213-paint-the-wall)
-18. [j213 Paint the Wall, subtask 4 & 5](https://judge.hkoi.org/task/j213) - see [Class 2 notes](https://github.com/miyagi-sensei/georgia/tree/main/class2#subtask-4-5)
+18. [j213 Paint the Wall, subtask 5](https://judge.hkoi.org/task/j213) - see [Class 2 notes](https://github.com/miyagi-sensei/georgia/tree/main/class2#subtask-4-5)
 
 After you finished each exercise, **don't forget to stop and review what you have learned from this exercise and ask yourself if you can write the code better**. Good coding style is the foundation for the whole journey, in the same way that good posture is foundational for a good golf swing.
 
