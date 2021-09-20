@@ -88,7 +88,8 @@ Once again, estimate the runtime of this solution for the following cases:
 
 What about the space complexity of the above 2 solutions?
 
-## [j184 Mysterious Area](https://judge.hkoi.org/task/j184)
+## j184 Mysterious Area
+[Problem](https://judge.hkoi.org/task/j184)
 ### Problem Statement
 
 - Area is a 3N x N Cartesian grid
