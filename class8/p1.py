@@ -25,7 +25,10 @@ fib[1] = 1
 fib[2] = 2
 for i in range(3, MAXFIB):
     fib[i] = fib[i-1] + fib[i-2]
-cnt = {'00': [0]*MAXFIB, '01': [0]*MAXFIB, '10': [0]*MAXFIB, '11': [0]*MAXFIB}
+cnt = {'00': [0]*MAXFIB, 
+       '01': [0]*MAXFIB, 
+       '10': [0]*MAXFIB, 
+       '11': [0]*MAXFIB}
 cnt['01'][2] =1
 for i in range(3, MAXFIB):
     for w in ['00', '01', '10']:
@@ -40,4 +43,4 @@ for _ in range(Q):
     line = input().split()
     l, r, w = int(line[0]), int(line[1]), line[2]
     print(solve(r, w) - solve(l, w))
-
+    
