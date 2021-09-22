@@ -21,7 +21,7 @@ for i from 0 to N-1:
 - [exercise: D802](https://judge.hkoi.org/task/D802)
 - Time Complexity: O(N<sup>2</sup>)
 - easiest sort to write:
-```
+```cpp
 for (i=1; i<N; i++)
     for (j=1; j<N; j++)
         if (arr[j-1] > arr[j])
@@ -34,7 +34,7 @@ how do you merge 2 sorted arrays into 1 combined sorted array in O(N) time?
 a: {3, 27, 38, 43}     b: {9, 10, 82}
 merged: {3, 9, 10, 27, 38, 43, 82}
 ```
-```
+```python
 # if a and b are both sorted lists, return a merged array that is also sorted
 def merge(a, b):
     i = 0
@@ -91,7 +91,7 @@ This is *Divide and Conquer*.
 If you want to hear an MIT professor fully discuss time complexity of merge sort check out this [lecture](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-3-insertion-sort-merge-sort/).
 
 99% of the time you just need to know how to use the `sort()` function in the `<algorithm>` library.
-```
+```cpp
 #include <algorithm>
 using namespace std;
 int arr[1000], N;
@@ -119,7 +119,7 @@ But how do you solve a problem like [01068 Moliu Sorting](https://judge.hkoi.org
 If you really want to master the Divide and Conquer technique, you should learn Quicksort.
 
 The essence of the algorithm is below.
-```
+```python
 def quicksort(begin, end):      # sort arr[begin...end] (exclusive of arr[end])
     if begin + 1 == end:
         return
