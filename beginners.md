@@ -13,7 +13,7 @@ Following is a list of the exercises extracted from the classes so far. They sho
 11. [01068 moliu sorting](https://judge.hkoi.org/task/01068) - see [Class 6 notes](https://github.com/miyagi-sensei/georgia/tree/main/class6)
   - try solving in 4 ways: insertion sort, bubble sort, merge sort and finally solve it by calling the built-in `sort()` function
 12. [Diligent](https://judge.hkoi.org/task/01090) - see [Class 4](https://github.com/miyagi-sensei/georgia/tree/main/class4#01090-diligent) and [Class 5](https://github.com/miyagi-sensei/georgia/tree/main/class5#homework-01090-diligent) notes
-13. [s184 BOGO Translate](https://judge.hkoi.org/task/S184) - See [parsing sentence into words using sstream](https://github.com/miyagi-sensei/georgia/blob/main/class4/s184v1.cpp)
+13. [s184 BOGO Translate](https://judge.hkoi.org/task/S184) - See [Class 4 notes](https://github.com/miyagi-sensei/georgia/tree/main/class4#s184-bogo-translate)
 14. [j184: subtask 1-3 using simulation](https://judge.hkoi.org/task/j184) - see [Class 5 nots](https://github.com/miyagi-sensei/georgia/tree/main/class5#j184-mysterious-area)
 15. [j184: full solution](https://judge.hkoi.org/task/j184) - it's okay if you find this too challenging
 16. [j212 Paint the Floor](https://judge.hkoi.org/task/j212) - see [Class 1 notes](https://github.com/miyagi-sensei/georgia/blob/main/class1.md#j212-paint-the-floor)
