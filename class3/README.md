@@ -18,7 +18,7 @@ declare `bitset<101> wall[101]` instead of `bool wall[101][101]` and that's it!
 
 ## Recursion
 [D205 Prime factorization](https://judge.hkoi.org/task/D205) can be solved recursively. It's an important way of solving a problem in computer science. You may be able to solve it in many ways but the recursive way is instructive.
-```
+```python
 def factorize(n):
     for i in range(2, int(n**0.5)+1):
         if n % i == 0:
@@ -87,7 +87,7 @@ You have to try all possibilities. (brute force?)
 > it performs lots of redundant search down the tree but because `X` is small, a naive brute force search would score the subtask.
 
 Implementation:
-```
+```cpp
 int f(int x) {
     if (x <= 0)
         return 0;
@@ -99,7 +99,7 @@ int f(int x) {
 ```
 
 ### Memoization (unnecessary optimization for subtask 3):
-```
+```cpp
 int min_cost[101];    // memoization table
 
 int f(int x) {
