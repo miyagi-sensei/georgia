@@ -29,9 +29,9 @@ int main() {
             sent_len++;
         }
         // now print out words to see if we correctly parsed the sentence into words
-		for (i=0; i<sent_len; i++)
-			cout << words[i] << ",";
-		cout << endl;
+        for (i=0; i<sent_len; i++)
+            cout << words[i] << ",";
+        cout << endl;
 
         cin >> pattA >> pattB;
         // translate words from language A to language B
