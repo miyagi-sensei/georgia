@@ -16,7 +16,7 @@ Following is a list of the exercises extracted from the classes so far. They sho
 13. [s184 BOGO Translate](https://judge.hkoi.org/task/S184) - See [parsing sentence into words using sstream](https://github.com/miyagi-sensei/georgia/blob/main/class4/s184v1.cpp)
 14. [j184: subtask 1-3 using simulation](https://judge.hkoi.org/task/j184) - see [Class 5 nots](https://github.com/miyagi-sensei/georgia/tree/main/class5#j184-mysterious-area)
 15. [j184: full solution](https://judge.hkoi.org/task/j184) - it's okay if you find this too challenging
-16. [j212 Paint the Floor](https://judge.hkoi.org/task/j212) - see [Class 5 notes](https://github.com/miyagi-sensei/georgia/tree/main/class5#j212-paint-the-floor)
+16. [j212 Paint the Floor](https://judge.hkoi.org/task/j212) - see [Class 1 notes](https://github.com/miyagi-sensei/georgia/blob/main/class1.md#j212-paint-the-floor)
 17. [j213 Paint the Wall, subtask 1-3](https://judge.hkoi.org/task/j213) - see [Class 2 notes](https://github.com/miyagi-sensei/georgia/tree/main/class2#j213-paint-the-wall)
 18. [j213 Paint the Wall, subtask 5](https://judge.hkoi.org/task/j213) - see [Class 2 notes](https://github.com/miyagi-sensei/georgia/tree/main/class2#subtask-4-5)
 
