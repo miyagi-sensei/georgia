@@ -17,7 +17,7 @@ Recall Fibonnaci numbers
 - f(1) = 1
 
 Simple recursive implementation:
-```
+```cpp
 int fib(int n) {
     if (n <= 1)
         return n;
@@ -27,7 +27,7 @@ int fib(int n) {
 This is actually exponential time implementation. By the way, how would you add memoization to speed it up?
 
 Instead of recursive implementation, you can also implement it *iteratively*:
-```
+```cpp
 int fib2(int n) {
     int a = 0, b = 1, c, i;
     if (n <= 1)
@@ -40,7 +40,7 @@ int fib2(int n) {
     return c;
 }
 ```
-```
+```python
 g(y):
   n1 = 0
   n2 = 0
@@ -57,7 +57,7 @@ g(y):
 - that means we can solve it in ascending order of y
 
 Code:
-```
+```cpp
 int max_nuggets(int y) {
     int i;
     for (i=N4; i<=y; i++) {
@@ -94,7 +94,7 @@ If j = i - 4, we are given F<sub>i</sub> and F<sub>i-4</sub>, let's try to deriv
 
 ## [01090 Diligent](https://judge.hkoi.org/task/01090)
 Use this template so you can understand data structure *abstraction* better:
-```
+```cpp
 int main() {
     int id, N;
     cin >> N;
@@ -120,7 +120,7 @@ A set is an abstract data type that:
 - without repeated values
 
 It's best to demonstrate set with some python code:
-```
+```python
 >>> x = set('abracadabra')
 >>> x
 {'b', 'a', 'c', 'd', 'r'}
