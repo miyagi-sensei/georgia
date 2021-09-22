@@ -7,7 +7,7 @@ using namespace std;
 int N, M;
 
 int main() {
-    int i, sent_len;
+    int i, j, sent_len;
     string sentence, pattA, pattB, wordA, wordB;
     string words[26];
     /***** Load dictionary for language A and language B from inputs *****/
@@ -29,8 +29,8 @@ int main() {
             sent_len++;
         }
         // now print out words to see if we correctly parsed the sentence into words
-        for (i=0; i<sent_len; i++)
-            cout << words[i] << ",";
+        for (j=0; j<sent_len; j++)
+            cout << words[j] << ",";
         cout << endl;
 
         cin >> pattA >> pattB;
