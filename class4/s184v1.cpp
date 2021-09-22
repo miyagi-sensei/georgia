@@ -20,7 +20,7 @@ int main() {
     /***** carry out the translation tasks *****/
     cin >> M;
     for (i=0; i<M; i++) {
-        getline(cin, sentence); // read the unprocessed "\n" character from above
+        getline(cin, sentence); // read the leftover "\n" character
         getline(cin, sentence); // this reads the actual sentence
         // parse sentence into words[]
         istringstream iss(sentence);
