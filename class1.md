@@ -70,7 +70,7 @@ Space Complexity: O(N<sup>2</sup>)
 > ### Testing Skills
 > - code like function `print_wall()` can be super handy in the testing process
 
-## [Full solution](https://github.com/miyagi-sensei/j212/blob/main/v1.cpp)
+## [Full solution](https://github.com/miyagi-sensei/j212/blob/main/v1.cpp) (temporarily removed)
 Insight: Each tile (x, y) can only be painted by 3 paint jobs. What are they?
 
 ![blank](demo.png)<br>
