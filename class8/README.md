@@ -1,7 +1,7 @@
 # Class 8
 ## [j173 Fibonacci Word](https://judge.hkoi.org/task/J173)
 - [brute force solution](https://github.com/miyagi-sensei/georgia/blob/main/class8/brute.py)
-- [full solution](https://github.com/miyagi-sensei/georgia/blob/main/class8/p1.py) (It won't score 100pts because it's python. If you turn it into C++ code it will easily score pass)
+- [full solution](https://github.com/miyagi-sensei/georgia/blob/main/class8/p1.py) (It won't score 100pts because it's python. If you turn it into C++ code it will easily pass)
 - [full solution](https://github.com/miyagi-sensei/georgia/blob/main/class8/p2.py) (It uses bisect_left built-in binary search instead of linear search and scores 100)
 
 ## [01068 Moliu Sorting](https://judge.hkoi.org/task/01068)
