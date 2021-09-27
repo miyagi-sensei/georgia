@@ -1,8 +1,26 @@
 # Class 9
 # [j194 Graffiti](https://judge.hkoi.org/task/j194)
-Recommended way:
+### Recommended way
 1. Solve subtask 1 first
-2. S
+2. Solve subtask 2 - it brings the central insight of this problem
+3. Solve the whole problem.
+Don't try to solve the whole problem with solving subtask 2 first. You will waste your time.
+
+# [s144 Pharmaceutical Company](https://judge.hkoi.org/task/s144)
+## Problem Statement
+- If t is switchover time,
+- production of Team X: ux(t) = Sum( (t - Px - Qx) / Ta[i] )
+- production of Team Y: uy(t) = Sum( (T - t - Py - Qy) / Tb[i] )
+- maximize min(ux(t), uy(t)) under constraint ux(t) <= uy(t)
+- in other words, maximize ux(t) under constraint ux(t) <= uy(t)
+- did you notice the problem wants you to print the smallest t if there are multiple possible answers?
+
+### Recommended Way
+Write a brute force linear search solution first. You'll realize the problem has some very tricky parts. It will save you time than if you go straight for the binary search solution. 
+> Remember don't chew more than you can swallow.
+
+__________________________
+
 
 # [j184 Mysterious Area](https://judge.hkoi.org/task/j184)
 ## Problem Statement
