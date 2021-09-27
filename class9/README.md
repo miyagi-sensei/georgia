@@ -34,7 +34,6 @@ __________________________
 
 ## Simulation
 - Imagine a [simulation](https://github.com/miyagi-sensei/j184-mysetrious-area/blob/master/demo.py) where you plot the trajectory of the bird graphically
-> !!! show code and demo it (it doesn't count steps)
 
 Write your own flying logic with this [template](https://github.com/miyagi-sensei/j184-mysetrious-area/blob/master/v0.cpp) and see it graphically depicted:
 ```c++
@@ -78,7 +77,6 @@ while inside the area:
   steps += 1
 ```
 further elaborating....
-> !!! Ask if they can read pseudocode
 ```
 Declare array H[] and store the height of rock i at H[i]
 x = 1; y = N;
@@ -105,8 +103,6 @@ else:
   print DROP
 print steps
 ```
-
-> !!! Demo with worst case `6 4 2 1 3 5 7`.
 
 Time Complexity is O(N<sup>2</sup>).
 Estimate its run time when 1 ≤ N ≤ 2000.
