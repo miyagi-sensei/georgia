@@ -86,6 +86,7 @@ int main() {
 }
 ```
 What is the number of possible different outputs?
+
 <br>
 
 ________________
