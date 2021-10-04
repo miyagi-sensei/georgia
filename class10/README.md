@@ -10,18 +10,7 @@
 - (b) can be rewritten as: if BOTH of THE 2 BRICKS (i+1, j) and (i+1, j+1) are black, brick (i, j) must be black.
 - therefore (b) means black in flows upward: if the base is black, then the whole triangle above it is also black.
 
-> !!! Demo subtask 1 and 2
-
-> !!! Use Excel to demo full solution
-```
-20 6
-19 1
-18 4
-19 10
-17 6
-16 14
-14 13
-```
+![demo](https://github.com/miyagi-sensei/georgia/blob/main/class10/j194.png)
 
 ## Code Tracing
 What is the output of the following program?
@@ -56,7 +45,6 @@ int main() {
   cout << s;
 }
 ```
-> !!! hkii2o221o
 
 What is the output of the following program?
 ```c++
@@ -73,19 +61,18 @@ int main() {
   cout << s;
 }
 ```
-> !!! hki018721o
 
 ---
 
 ## Combinatorics questions
 1. There are 4 seats arranged in a row. Alice, Bob, Charlie and Dave are each going to choose a seat. Alice should not sit next to Bob, and Charlie should not sit next to Dave. How many seating arrangements are there?
 <br>
-> !!! 8
+
 ________________
 
 2. How many ways are there to pick, at the same time, two different integers between 1 and 8 (inclusive), such that their product is not a multiple of four?
 <br>
-> !!! 14
+
 ________________
 
 3. Assume function `random(n)` returns an integer from 0 to n-1 randomly with equal probability. Consider the following C++ program:
@@ -100,12 +87,12 @@ int main() {
 ```
 What is the number of possible different outputs?
 <br>
-> !!! 11
+
 ________________
 
 4. Consider the number 214748347. It has 9 digits. There are 2<sup>9-1</sup> = 256 ways to insert (possibly zero) plus signs (+) between the digits to obtain an arithmetic expression. For example, `214748347`, `2+1+4+7+4+8+3+4+7`, and `214+74+8+347` are three ways. How many of these arithmetic expressions evaluates to an odd number?
 <br>
-> !!! 128
+
 ________________
 
 ## Logic and Bitwise Operations
