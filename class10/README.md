@@ -13,6 +13,7 @@
 ![demo](https://github.com/miyagi-sensei/georgia/blob/main/class10/j194.png)
 
 ## Code Tracing
+### 1
 What is the output of the following program?
 ```c++
 int arr[8] = {-3, 2, 6, 7, 9, -5, -10, 11};
@@ -32,6 +33,7 @@ Work through the program using **tables**.
 
 ---
 
+### 2
 What is the output of the following program?
 ```c++
 string s = "hkoi201718";
@@ -46,6 +48,9 @@ int main() {
 }
 ```
 
+---
+
+### 3
 What is the output of the following program?
 ```c++
 string s = "hkoi201718";
@@ -65,17 +70,20 @@ int main() {
 ---
 
 ## Combinatorics questions
-1. There are 4 seats arranged in a row. Alice, Bob, Charlie and Dave are each going to choose a seat. Alice should not sit next to Bob, and Charlie should not sit next to Dave. How many seating arrangements are there?
+### 4
+There are 4 seats arranged in a row. Alice, Bob, Charlie and Dave are each going to choose a seat. Alice should not sit next to Bob, and Charlie should not sit next to Dave. How many seating arrangements are there?
 <br>
 
 ________________
 
-2. How many ways are there to pick, at the same time, two different integers between 1 and 8 (inclusive), such that their product is not a multiple of four?
+### 5
+How many ways are there to pick, at the same time, two different integers between 1 and 8 (inclusive), such that their product is not a multiple of four?
 <br>
 
 ________________
 
-3. Assume function `random(n)` returns an integer from 0 to n-1 randomly with equal probability. Consider the following C++ program:
+### 6
+Assume function `random(n)` returns an integer from 0 to n-1 randomly with equal probability. Consider the following C++ program:
 ```
 int i, a, b;
 int main() {
@@ -86,17 +94,18 @@ int main() {
 }
 ```
 What is the number of possible different outputs?
-
 <br>
 
 ________________
 
-4. Consider the number 214748347. It has 9 digits. There are 2<sup>9-1</sup> = 256 ways to insert (possibly zero) plus signs (+) between the digits to obtain an arithmetic expression. For example, `214748347`, `2+1+4+7+4+8+3+4+7`, and `214+74+8+347` are three ways. How many of these arithmetic expressions evaluates to an odd number?
+### 7
+Consider the number 214748347. It has 9 digits. There are 2<sup>9-1</sup> = 256 ways to insert (possibly zero) plus signs (+) between the digits to obtain an arithmetic expression. For example, `214748347`, `2+1+4+7+4+8+3+4+7`, and `214+74+8+347` are three ways. How many of these arithmetic expressions evaluates to an odd number?
 <br>
 
 ________________
 
 ## Logic and Bitwise Operations
+### 8
 Which of the following pairs of statements are logically equivalent?<br>
 
 1. If it is raining then the ground is wet.<br>
@@ -113,7 +122,7 @@ D.  None of them
 
 ____________
 
-
+### 9
 If Charlie gets full marks in the final exam, he feels happy; if Charlie feels happy and it is raining outside, he plays computer games at home. Charlie is not playing computer games at home. Which of the followings must be true?
 
 A. Charlie does not get full marks in the final exam<br>
@@ -125,6 +134,7 @@ D. None of the above
 
 ____________
 
+### 10
 Alice, Bob and Charlie are invited to a party. However, they still haven’t decided whether they will go to the party or not. If Alice goes then Bob will also go; if Alice and Bob both go, then Charlie will not go. Which of the following is/are possible situations?
 
 i.    Only Alice and Bob go<br>
@@ -140,6 +150,7 @@ D. ii and iii only
 
 ____________
 
+### 11
 Suppose this statement is true: “If I eat this giant cookie, then I will feel sick.” Which of the following statements must also be true?
 
 A. If I feel sick, then I ate that giant cookie.<br>
@@ -150,24 +161,28 @@ C. If I don’t feel sick, then I didn’t eat that giant cookie.
 
 ________________________________________________________________________________
 
+### 12
 “Somebody brought a flashlight.” Write the negation of this statement.
 
 <br>
 
 ________________________________________________________________________________
 
+### 13
 “There are no prime numbers that are even.” Write the negation of this statement.
 
 <br>
 
 ________________________________________________________________________________
 
+### 14
 “All Chinese children learn English in school.” Write the negation of this statement.
 
 <br>
 
 _______________________
 
+### 15
 Truth table for *NOR*
 |operand 1|operand 2|result|
 |---|---|---|
@@ -187,6 +202,7 @@ D. `(A nor B) nor (B nor B)`
 
 _______________________
 
+### 16
 Suppose `x` is a boolean variable. Evaluate the following expression in C/C++.<br>
 `(x && (!x)) == false`
 
@@ -194,6 +210,7 @@ Suppose `x` is a boolean variable. Evaluate the following expression in C/C++.<b
 
 _______________________
 
+### 17
 Given that there is only one correct answer for this question, which one is the correct answer?
 
 A. Neither B nor C is the correct answer<br>
@@ -205,6 +222,7 @@ D. Neither A nor B is the correct answer
 
 _______________________
 
+### 18
 Which of the following pair(s) of boolean expressions are logically equivalent?
 
 1. `x || (!x && y)`<br>
@@ -217,6 +235,72 @@ B. 2 only<br>
 C. 1 and 2<br>
 D. None of them
 
+<br>
+
+_______________________
+
+### 19
+Perform bitwise operation `25 & 45`
+
+<br>
+
+_______________________
+
+### 20
+Perform bitwise operation `25 ^ 45`
+
+<br>
+
+_______________________
+
+### 21
+x and y are 32-bit unsigned integers. Which of the expressions is/are always true?
+
+1. `(x | y) >= (x & y)`
+2. `(x | y) >= x`
+3. `(x & y) <= x`
+
+A. None of the above<br>
+B. 1 only<br>
+C. 1 and 2 only<br>
+D. 1, 2 and 3
+
+<br>
+
+_______________________
+
+### 22
+Perform bitwise operations `17 << 1` and `17 << 2`. 
+
+<br>
+
+_______________________
+
+### 23
+Perform bitwise operations `17 >> 1` and `17 >> 2`. 
+
+<br>
+
+_______________________
+
+### 24
+Consider the following function:
+```c++
+int same(int a, int b) {
+  if (_____X_____)
+    return 1;
+  elese
+    return 0;
+}
+```
+Which of the followings can be filled in `X` such that the function returns 1 if and only if a = b?
+1. `(a | b) == (a & b)
+2. `(a ^ b) == 0`
+
+A. None of the above
+B. i only<br>
+C. ii only<br>
+D. i and ii<br>
 <br>
 
 _______________________
