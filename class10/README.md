@@ -307,5 +307,5 @@ _______________________
 
 # Homework
 - [2017/18 Junior Heat Event Paper](https://assets.hkoi.org/ref/2018hj.pdf)
-- [Anser sheet](https://assets.hkoi.org/ref/2018hja.pdf)
+- [Answer sheet](https://assets.hkoi.org/ref/2018hja.pdf)
 - [Solution](https://hkoi.org/en/past-problems/)
