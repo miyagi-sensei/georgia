@@ -294,7 +294,7 @@ int same(int a, int b) {
 }
 ```
 Which of the followings can be filled in `X` such that the function returns 1 if and only if a = b?
-1. `(a | b) == (a & b)
+1. `(a | b) == (a & b)`
 2. `(a ^ b) == 0`
 
 A. None of the above
