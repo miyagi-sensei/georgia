@@ -1,4 +1,5 @@
-# Boolean Logic
+# Class 10
+## Boolean Logic
 > If it doesn’t rain this weekend *and* I finished my homework, my mother will take me to the new Ocean Park Water World.
 
 What does this sentence mean? How does the operator *and* work?
@@ -102,7 +103,7 @@ The negation of p —> q is logically equivalent to p AND ~q.
 
 ---
 
-## Logic and Bitwise Operations
+## Exericses
 ### 8
 Which of the following pairs of statements are logically equivalent?<br>
 
