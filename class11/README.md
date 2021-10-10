@@ -101,6 +101,13 @@ The negation of p —> q is logically equivalent to p AND ~q.
 - if you can find 1 person who got the vaccine and also caught COVID, you have proven this conditional false
 - that was the negation of p -> q, which is logically equivalent to p `and` ~q
 
+![graffiti](https://github.com/miyagi-sensei/georgia/blob/main/class11/graffiti.png)
+The negation of:
+> if brick (i, j) is white, then **AT LEAST ONE** of the two bricks right below it (i.e. (i+1, j) and (i+1, j+1) must be white
+
+is
+> if **BOTH** of the two bricks right below it (i.e. (i+1, j) and (i+1, j+1) are black, then brick (i, j) must be black
+
 ---
 
 ## Exericses
