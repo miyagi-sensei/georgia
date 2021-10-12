@@ -90,6 +90,13 @@ is
 > if **BOTH** of the two bricks right below it (i.e. (i+1, j) and (i+1, j+1) are black, then brick (i, j) must be black
 
 ### Negation
+Negation of a statement `P` is true if and only if when `P` is false.
+
+Example
+`P`: Neither A nor B is false.
+The negation of `P` is: Either A or B is true.
+If we know that `P` is false, then we know its negation is true, which means either A or B is true.
+
 Negation of a statement can be tricky, especially when there are *qualifiers* in it.
 The following pairs of statements are negation of each other
 - “*All* A are B” vs. “*At least one* A is not B”
