@@ -1,4 +1,4 @@
-# Class 10
+# Class 11
 ## Boolean Logic
 > If it doesn’t rain this weekend *and* I finished my homework, my mother will take me to the new Ocean Park Water World.
 
