@@ -1,5 +1,18 @@
 # Class 11
-## Boolean Logic
+# J151 Inverse Problem
+Problem Statement: Print N distinct integers that add up to M
+## Solution:
+- if N is odd, then just print 1, -1, 2, -2, 3, -3, .... M (remember to skip M and -M)
+- if N is even, then print 1, -1, 2, -2, 3, -3, ..., 0, M (also skip M and -M)
+
+---
+
+# S194
+See [solution for S194](https://github.com/miyagi-sensei/s194/blob/main/README.md)
+
+---
+
+# Boolean Logic
 > If it doesn’t rain this weekend *and* I finished my homework, my mother will take me to the new Ocean Park Water World.
 
 What does this sentence mean? How does the operator *and* work?
