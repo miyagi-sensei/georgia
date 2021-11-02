@@ -163,41 +163,29 @@ A.
 ```c++
 for (i=0; i<=n-1; i++)
   for (j=i; j>=1; j--)
-    if (a[j] < a[j-1]) {
-      temp = a[j];
-      a[j] = a[j-1];
-      a[j-1] = temp;
-    }
+    if (a[j] < a[j-1])
+      swap(a[j], a[j-1);
 ```
 B.
 ```c++
 for (i=0; i<=n-1; i++)
   for (j=i; j<=n-2; j++)
-    if (a[j] > a[j+1]) {
-      temp = a[j];
-      a[j] = a[j+1];
-      a[j+1] = temp;
-    }
+    if (a[j] > a[j+1])
+      swap(a[j], a[j+1);
 ```
 C.
 ```c++
 for (i=0; i<=n-1; i++)
   for (j=0; j<=i-1; j++)
-    if (a[j] > a[j+1]) {
-      temp = a[j];
-      a[j] = a[j+1];
-      a[j+1] = temp;
-    }
+    if (a[j] > a[j+1])
+      swap(a[j], a[j+1);
 ```
 D.
 ```c++
 for (i=0; i<=n-1; i++)
   for (j=n-1; j>=i+1; j--)
-    if (a[j] < a[j-1]) {
-      temp = a[j];
-      a[j] = a[j-1];
-      a[j-1] = temp;
-    }
+    if (a[j] < a[j-1])
+      swap(a[j], a[j-1);
 ```
 
 You need to practice enough so that you can read these code to reckon what they do. 
