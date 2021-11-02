@@ -156,6 +156,19 @@ Consider the number 2147493647. It has 10 digits. There are 2<sup>10-1</sup> = 5
 
 ________________
 
+### 20
+Consider the [J213 - Paint the Wall](https://judge.hkoi.org/task/J213) problem. Given an `R x C` wall, how many ways are there to paint `N` cells black?
+
+<br>
+
+________________
+
+How many ways are there to paint the wall?
+
+<br>
+
+________________
+
 ## Code reading exercise
 Which of the following program segments is an implementation of bubble sort?
 `n` is the size of the array `int a[n]`.<br>
