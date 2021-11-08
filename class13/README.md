@@ -1,4 +1,7 @@
-# Binary Search
+# Class 12
+## Binary Search
+[see slide 35-82 of this presentation](https://assets.hkoi.org/training2021/sas.pdf)
+
 In 2018/19 Junior Heat Event Section B Question 5:
 Given an array `a[0..99]` sorted in **descending order**, complete the function `f(target)` so that, among all `i` with `a[i] >= target`, it returns the largest `i`. If no such index exists, return `-1`.
 The correct solution is:
