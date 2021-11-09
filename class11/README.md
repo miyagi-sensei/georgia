@@ -266,7 +266,7 @@ D. None of them
 _______________________
 
 # Combinatorics
-Watch the first 9 videos this [playlist](https://www.youtube.com/playlist?list=PLmdFyQYShrjfPLdHQxuNWvh2ct666Na3z) (up to "Selection")
+Watch the first 9 videos of this [playlist](https://www.youtube.com/playlist?list=PLmdFyQYShrjfPLdHQxuNWvh2ct666Na3z) (up to "Selection")<br>
 Or the following 9 videos:
 1. [Counting](https://youtu.be/0NAASclUm4k)
 2. [Forming Numbers 1](https://youtu.be/XPPYYM6WCuE)
