@@ -73,11 +73,11 @@ int f(int target) {
 You can also do:
 ```c++
 while (l < r) {
-	m = (l + r) / 2;
-	if (a[m] ??C?? target)
-		l = m + 1;
-	else
-		r = m;
+    m = (l + r) / 2;
+    if (a[m] ??C?? target)
+        l = m + 1;
+    else
+        r = m;
 }
 ```
 Can you see how these are 2 ways to ensure that the while loop would always terminate? This is very important.
@@ -85,11 +85,11 @@ Can you see how these are 2 ways to ensure that the while loop would always term
 Let's write the invariant: `a[l] <= target < a[r]`. This lends itself easily to the answer for C.
 ```c++
 while (l < r - 1) {
-	m = (l + r) / 2;
-	if (a[m] <= target)
-		l = m;
-	else
-		r = m;
+    m = (l + r) / 2;
+    if (a[m] <= target)
+        l = m;
+    else
+        r = m;
 }
 ```
 We can also deduce that the while loop terminates when `l == r - 1`, i.e. when `l` is right next to `r`. Along with the invariant `a[l] <= target < a[r]`, we know that `a[r]` would be the smallest number that's larger than `target`.
