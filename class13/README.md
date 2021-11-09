@@ -1,4 +1,4 @@
-# Class 12
+# Class 13
 ## Binary Search
 [see slide 35-82 of this presentation](https://assets.hkoi.org/training2021/sas.pdf)
 
