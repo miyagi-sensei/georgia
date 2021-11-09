@@ -28,7 +28,7 @@ Let's prove that this code is correct. (This would give you some superpower)
 We won't do formal proof here but consider the broad structure of the loop:
 ```c++
 while (l < r) {
-	...
+	m = (l + r) / 2;
 	if (....)
 		l = m + 1;
 	else
@@ -43,7 +43,7 @@ We can also see that the while loop terminates if and only if `l == r`. Can you 
 - An *invariant* is an expression that remains true throughout the loop. It is true before the loop. Its truth is maintained throughout the loop. And therefore it is also true after the loop.
 - Before the while loop begins, this invariant is `a[-1] >= target > a[100]`. Confusing? Maybe. But for now just know that the invariant can be true in the beginning if we define `a[-1]` and `a[100]` properly.
 - Now how is this invariant maintained throughout the loop?
-- If the invariant `a[l-1] >= target > a[r]` is true before a particular iteration, 
+- If the invariant `a[l-1] >= target > a[r]` is true before a particular iteration, let's prove that it will also be true after the iteration.
 - `a[m] >= target` is either true or false.
 - If `a[m] >= target`, then after we update `l` to `m + 1`, because then `m = l - 1`, `a[l-1] >= target`. Can you follow this deduction? This is the left half of the invariant, which is maintained. Notice the right half of the invariant `target > a[r]` remains unchanged.
 - If `a[m] >= target` is false, then `target < a[m]`, then after we update `r` to `m`, `target < a[r]`. This is the right half of the invariant. The left half remains unchanged this time. 
@@ -54,6 +54,7 @@ We can also see that the while loop terminates if and only if `l == r`. Can you 
 
 ## Exercise 1
 Can you write a binary search that searches for the smallest `i` where `a[i] > target` when `a[0..99]` is sorted in **ascending order**?
+One of the best approach is to have a versatile template but limit the degrees of freedom to filling in A, B, C and D below.
 ```c++
 int f(int target) {
     int l = ??A??;
@@ -69,15 +70,14 @@ int f(int target) {
     return ??D??;
 }
 ```
-My approach is to limit the degrees of freedom to filling in A, B, C and D above.
 You can also do:
 ```c++
 while (l < r) {
-		m = (l + r) / 2;
-		if (a[m] ??C?? target)
-				l = m + 1;
-		else
-				r = m;
+	m = (l + r) / 2;
+	if (a[m] ??C?? target)
+		l = m + 1;
+	else
+		r = m;
 }
 ```
 Can you see how these are 2 ways to ensure that the while loop would always terminate? This is very important.
@@ -85,11 +85,11 @@ Can you see how these are 2 ways to ensure that the while loop would always term
 Let's write the invariant: `a[l] <= target < a[r]`. This lends itself easily to the answer for C.
 ```c++
 while (l < r - 1) {
-		m = (l + r) / 2;
-		if (a[m] <= target)
-				l = m;
-		else
-				r = m;
+	m = (l + r) / 2;
+	if (a[m] <= target)
+		l = m;
+	else
+		r = m;
 }
 ```
 We can also deduce that the while loop terminates when `l == r - 1`, i.e. when `l` is right next to `r`. Along with the invariant `a[l] <= target < a[r]`, we know that `a[r]` would be the smallest number that's larger than `target`.
