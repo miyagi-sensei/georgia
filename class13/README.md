@@ -125,3 +125,7 @@ Try the following variations one by one. Make sure you implement the brute force
 - a binary search that searches for the smallest `i` where `a[i] >= target` when `a[0..99]` is sorted in **ascending order**?
 
 Practice writing the invariant. Prove your own code before you test it. How did it go? Are you getting better at getting it right in one shot?
+
+---
+
+Go over Section A Question 16 & 10.
