@@ -1,0 +1,116 @@
+# Bitset
+- `bitset` in C++ can be extremely convenient in many competitive coding situations.
+- See [bitset reference](https://www.cplusplus.com/reference/bitset/bitset)
+- Pay attention to object functions `set`, `reset`, `flip`, `to_ullong` and `to_string`
+- Functions such as `any`, `none` and `all` can be convenient. But they can all be replicated with a few lines of primitive code. Do that as an exercise.
+
+## It can give you the binary representation of an integer
+```c++
+int main() {
+    int i, j;
+    bitset<8> a, b;		// for storing 8 bits
+    a = 25;
+    b = 45;
+    cout << "a     = " << a << endl;	// 00011001
+    cout << "b     = " << b << endl;	// 00101101
+}
+```
+
+But remember the bits are stored in the order of least significant bit (LSB) to the most significant bit (MSB), i.e. bit `0` is the least significant bit. Be careful when you print data stored in `bitset`.
+```c++
+    bitset<8> b = 45;		// 00101101
+    cout << "bit 3 of b is: " << b[3] << endl;
+```
+Would the above snippet print `0` or `1`?
+
+> ??? 1
+
+## The common use case for `bitset` is to apply bitwise operators to `bitset`:
+```c++
+    cout << "a & b = " << (a & b) << endl;	// 00001001
+    cout << "a | b = " << (a | b) << endl;	// 00111101
+    cout << "a ^ b = " << (a ^ b) << endl;	// 00110100
+```
+
+## Imagine there are 8 streaming services that have different catalogs of movies and TV shows:
+|movies/tv shows|0|1|2|3|4|5|6|7|8|9|
+|---|---|---|---|---|---|---|---|---|---|---|
+||||||||||||
+|streaming<br>service|||||||||||
+|0|1|0|1|0|0|1|0|0|1|1|
+|1|0|0|0|0|0|1|1|0|1|1|
+|2|0|0|0|1|1|1|1|1|1|0|
+|3|0|0|0|0|0|1|0|0|1|1|
+|4|1|0|0|0|0|1|0|0|1|0|
+|5|1|1|0|1|1|1|0|1|1|0|
+|6|0|1|0|1|0|1|1|0|1|0|
+|7|0|0|1|1|0|1|1|1|1|1|
+
+You can initialize the data using `bitset`:
+```c++
+	bitset<10> catalog[8];
+	catalog[0] = 0b1010010011;
+	catalog[1] = 0b0000011011;
+	catalog[2] = 0b0001111110;
+	catalog[3] = 0b0000010011;
+	catalog[4] = 0b1000010010;
+	catalog[5] = 0b1101110110;
+	catalog[6] = 0b0101011010;
+	catalog[7] = 0b0011011111;
+```
+
+- How do you figure out which movies are available on all streaming services? (must-haves)
+- If you only subscribe to streaming service 3, 6 and 7, do you have access to all movies/shows?
+- What about 3, 5, and 7?
+
+```c++
+    bitset<10> ans;
+    ans.set();	// set all 10 bits to 1
+    for (i=0; i<8; i++) {
+        ans = ans & catalog[i];
+    }
+    printf("                     9876543210\n");		
+    printf("                     ----------\n");
+    cout << "& result             " << ans << endl;
+
+    ans = catalog[3] | catalog[6] | catalog[7];
+    cout << "3 | 6 | 7 result     " << ans << endl;
+
+    ans = catalog[3] | catalog[5] | catalog[7];
+    cout << "3 | 5 | 7 result     " << ans << endl << endl;
+```
+
+## What if we really want to watch movies 4, 5 & 6 and we want to know which streaming service(s) have all 3 available?
+First we *transpose* the catalog so that each row corresponds to a movie/show instead of a streaming service:
+```c++
+    bitset<8> transpose[10];
+    for (i=0; i<8; i++)
+        for (j=0; j<10; j++)
+            transpose[j][i] = catalog[i][j];
+```
+Then we can use the `&` operator to get the answer:
+```c++
+    bitset<8> ans2 = transpose[4] & transpose[5] & transpose[6];
+    printf("           76543210\n");
+    printf("           --------\n");
+    cout << "4 & 5 & 6: " << ans2 << endl;
+```
+
+But why don't we just write a simple for-loop to check all 3 movies for each streaming service? Isn't it much easier?
+```c++
+    for (i=0; i<N; i++)
+        if (catalog[i][4] & catalog[i][5] & catalog[6])
+            cout << i << " ";
+```
+
+But if there are many many streaming services, using the `bitset` method would gain marked performance improvement - precisely 64x improvement because `bitset` operates "word by word", where *word* refers to a "computer word", or 64-bit for most machines.
+
+See [demo.cpp] for all the snippets from above.
+
+---
+
+## Exercises
+Solve [M2002](https://judge.hkoi.org/task/M2002)
+Suggested steps:
+- Solve subtask 1 & 2 using brute force method first
+- Solve subtask 3 by using `bitset`
