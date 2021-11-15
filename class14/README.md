@@ -1,3 +1,4 @@
+# Class 14 
 # Bitset
 - `bitset` in C++ can be extremely convenient in many competitive coding situations.
 - See [bitset reference](https://www.cplusplus.com/reference/bitset/bitset)
@@ -30,8 +31,10 @@ Would the above snippet print `0` or `1`?
     cout << "a ^ b = " << (a ^ b) << endl;	// 00110100
 ```
 
+---
+
 ## Imagine there are 8 streaming services that have different catalogs of movies and TV shows:
-|movies/tv shows|0|1|2|3|4|5|6|7|8|9|
+|movies/tv shows|9|8|7|6|5|4|3|2|1|0|
 |---|---|---|---|---|---|---|---|---|---|---|
 ||||||||||||
 |streaming<br>service|||||||||||
@@ -44,17 +47,19 @@ Would the above snippet print `0` or `1`?
 |6|0|1|0|1|0|1|1|0|1|0|
 |7|0|0|1|1|0|1|1|1|1|1|
 
+Notice how the index order of movies/shows are reversed.
+
 You can initialize the data using `bitset`:
 ```c++
-	bitset<10> catalog[8];
-	catalog[0] = 0b1010010011;
-	catalog[1] = 0b0000011011;
-	catalog[2] = 0b0001111110;
-	catalog[3] = 0b0000010011;
-	catalog[4] = 0b1000010010;
-	catalog[5] = 0b1101110110;
-	catalog[6] = 0b0101011010;
-	catalog[7] = 0b0011011111;
+    bitset<10> catalog[8];
+    catalog[0] = 0b1010010011;
+    catalog[1] = 0b0000011011;
+    catalog[2] = 0b0001111110;
+    catalog[3] = 0b0000010011;
+    catalog[4] = 0b1000010010;
+    catalog[5] = 0b1101110110;
+    catalog[6] = 0b0101011010;
+    catalog[7] = 0b0011011111;
 ```
 
 - How do you figure out which movies are available on all streaming services? (must-haves)
@@ -86,24 +91,41 @@ First we *transpose* the catalog so that each row corresponds to a movie/show in
         for (j=0; j<10; j++)
             transpose[j][i] = catalog[i][j];
 ```
+So now the *transposed* catalog looks like this:
+```
+           streaming service
+           76543210
+           --------
+movies 0:  10001011
+movies 1:  11111111
+movies 2:  10100100
+movies 3:  11000110
+movies 4:  11111111
+movies 5:  00100100
+movies 6:  11100100
+movies 7:  10000001
+movies 8:  01100000
+movies 9:  00110001
+```
+
 Then we can use the `&` operator to get the answer:
 ```c++
     bitset<8> ans2 = transpose[4] & transpose[5] & transpose[6];
     printf("           76543210\n");
     printf("           --------\n");
-    cout << "4 & 5 & 6: " << ans2 << endl;
+    cout << "4 & 5 & 6: " << ans2 << endl;	// 00100100
 ```
 
 But why don't we just write a simple for-loop to check all 3 movies for each streaming service? Isn't it much easier?
 ```c++
-    for (i=0; i<N; i++)
+    for (i=0; i<8; i++)
         if (catalog[i][4] & catalog[i][5] & catalog[6])
-            cout << i << " ";
+            cout << i << endl;
 ```
 
-But if there are many many streaming services, using the `bitset` method would gain marked performance improvement - precisely 64x improvement because `bitset` operates "word by word", where *word* refers to a "computer word", or 64-bit for most machines.
+If there are a large number of streaming services, using the `bitset` method would gain marked performance improvement (precisely 64x improvement because `bitset` operates "word by word" whereas a computer word is 64-bit for most machines).
 
-See [demo.cpp](demo.cpp) for all the snippets from above.
+See [demo.cpp](https://github.com/miyagi-sensei/georgia/blob/main/class14/demo.cpp) for all the code snippets from above.
 
 ---
 
