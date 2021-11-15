@@ -23,8 +23,6 @@ But remember the bits are stored in the order of least significant bit (LSB) to 
 ```
 Would the above snippet print `0` or `1`?
 
-> ??? 1
-
 ## The common use case for `bitset` is to apply bitwise operators to `bitset`:
 ```c++
     cout << "a & b = " << (a & b) << endl;	// 00001001
@@ -105,7 +103,7 @@ But why don't we just write a simple for-loop to check all 3 movies for each str
 
 But if there are many many streaming services, using the `bitset` method would gain marked performance improvement - precisely 64x improvement because `bitset` operates "word by word", where *word* refers to a "computer word", or 64-bit for most machines.
 
-See [demo.cpp] for all the snippets from above.
+See [demo.cpp](demo.cpp) for all the snippets from above.
 
 ---
 
