@@ -134,6 +134,25 @@ Solve [M2002](https://judge.hkoi.org/task/M2002)
 Suggested steps:
 - Solve subtask 1 & 2 using brute force method first
 - Solve subtask 3 by using `bitset`
+### Naive Pseudocode for subtask 1 & 2:
+```
+W[i][j]: availability of movie j on streaming service i
+C[i]: cost of streaming service i
+for each query (L, P[]):
+    # L: length of the list in the query
+    # {P[1], P[2], P[3], ... P[L]}: list of movies you want 
+    mincost = INF   # initialize to infinity before scanning  
+    for i in 1..N:
+        flag = true
+        for j in 1..L:
+            flag = flag & W[i][P[j]]
+        if flag:
+            mincost = min(mincost, C[i])
+    if mincost == INF:
+        print -1
+    else:
+        print mincost
+```
 
 ---
 
