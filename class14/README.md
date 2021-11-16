@@ -150,6 +150,6 @@ else:
     for n in range(N % K, 0, -1):
         print(n, end=' ')
     for i in range(N % K + 1, N + 1, K):
-        for n in range(i+K-1, i-1, -1):
+        for n in reversed(range(i, i+K)):
             print(n, end=' ')
 ```
