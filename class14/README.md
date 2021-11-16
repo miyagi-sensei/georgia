@@ -135,6 +135,8 @@ Suggested steps:
 - Solve subtask 1 & 2 using brute force method first
 - Solve subtask 3 by using `bitset`
 
+---
+
 ## Parting words
 - To prepare for the Final Event, make sure you attempt/complete the [beginners' exerecises](https://github.com/miyagi-sensei/georgia/blob/main/beginners.md)
 - Try questions like [J191](https://judge.hkoi.org/task/J191) and [J172](https://judge.hkoi.org/task/J172) to get a feel of the mindset for some of these problems. Those questions are not demanding on coding skills but ask you to think about the problem in creative ways. They're great exercises for the competition on a non-coding level.
