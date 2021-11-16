@@ -74,13 +74,13 @@ You can initialize the data using `bitset`:
     }
     printf("                     9876543210\n");		
     printf("                     ----------\n");
-    cout << "& result             " << ans << endl;
+    cout << "& result             " << ans << endl; // 0000010010
 
     ans = catalog[3] | catalog[6] | catalog[7];
-    cout << "3 | 6 | 7 result     " << ans << endl;
+    cout << "3 | 6 | 7 result     " << ans << endl; // 0111011111
 
     ans = catalog[3] | catalog[5] | catalog[7];
-    cout << "3 | 5 | 7 result     " << ans << endl << endl;
+    cout << "3 | 5 | 7 result     " << ans << endl << endl; // 1111111111
 ```
 
 ## What if we really want to watch movies 4, 5 & 6 and we want to know which streaming service(s) have all 3 available?
