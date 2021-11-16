@@ -150,7 +150,7 @@ Suggested steps:
           ******* Dynamic Programming ******** (class 3)
         ************ Data Structure ************ (class 4)
       ****** Divide & Conquer, Greedy, etc. ****** (class 2, 7)
-    ******** Searching and Sorting, DFS, BFS ******* (class 6, 8, 13)
+    ******** Searching and Sorting, DFS, BFS ******* (class 4, 6, 8, 13)
   ***** Combinatorics, Logic and boolean algebra ***** (class 1, 11, 12)
 ***** Coding mechanics (loops, control flow, etc.) ***** (all the beginners' exercises)
 ```
