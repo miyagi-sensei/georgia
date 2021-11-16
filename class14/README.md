@@ -17,7 +17,7 @@ int main() {
 }
 ```
 
-But remember the bits are stored in the order of least significant bit (LSB) to the most significant bit (MSB), i.e. bit `0` is the least significant bit. Be careful when you print data stored in `bitset`.
+You can access each individual bit by using the array notation, e.g. `a[i]`. But remember the bits are stored in the order of least significant bit (LSB) to the most significant bit (MSB), i.e. bit `0` is the least significant bit. Be careful when you print data stored in `bitset`.
 ```c++
     bitset<8> b = 45;		// 00101101
     cout << "bit 3 of b is: " << b[3] << endl;
