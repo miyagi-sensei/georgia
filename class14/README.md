@@ -147,9 +147,9 @@ N, K = map(int, input().split())
 if K * K < N:
     print('Impossible')
 else:
-    for n in reversed(range(1, N % K + 1)):
+    for n in range(N % K, 0, -1):
         print(n, end=' ')
     for i in range(N % K + 1, N + 1, K):
-        for n in reversed(range(i, i + K)):
+        for n in range(i+K-1, i-1, -1):
             print(n, end=' ')
 ```
