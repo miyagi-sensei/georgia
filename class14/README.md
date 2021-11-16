@@ -125,6 +125,9 @@ But why don't we just write a simple for-loop to check all 3 movies for each str
 
 If there are a large number of streaming services, using the `bitset` method would gain marked performance improvement (precisely 64x improvement because `bitset` operates "word by word" whereas a computer word is 64-bit for most machines).
 
+- If the problem has `200,000` streaming services and your favorite list has `10,000` movies/shows, what is the estimated run time of the naive method above looping throught the streaming services one by one? 
+- What is the run time if you deploy the `bitset` method?
+
 See [demo.cpp](https://github.com/miyagi-sensei/georgia/blob/main/class14/demo.cpp) for all the code snippets from above.
 
 ---
