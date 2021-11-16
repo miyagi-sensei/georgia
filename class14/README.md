@@ -2,8 +2,8 @@
 # Bitset
 - `bitset` in C++ can be extremely convenient in many competitive coding situations.
 - See [bitset reference](https://www.cplusplus.com/reference/bitset/bitset)
-- Pay attention to object functions `set`, `reset`, `flip`, `to_ullong` and `to_string`
-- Functions such as `any`, `none` and `all` can be convenient. But they can all be replicated with a few lines of primitive code. Do that as an exercise.
+- Pay attention to object functions `to_ullong` and `to_string`
+- Functions such as `set`, `reset`, `flip`, `any`, `none` and `all` can be convenient. But they can all be replicated with a few lines of primitive code. Do that as an exercise.
 
 ## It can give you the binary representation of an integer
 ```c++
