@@ -138,6 +138,23 @@ Suggested steps:
 ---
 
 ## Parting words
+### IOI Pyramid
+```
+                          ****
+                       **********
+                    * Suffix Tree **
+                  *** Convex Hull ****
+                ** RMQ, segment tree ***
+              *********** DSU  ***********
+            ********* Graph Theory *********
+          ******* Dynamic Programming ******** (class 3)
+        ************ Data Structure ************ (class 4)
+      ****** Divide & Conquer, Greedy, etc. ****** (class 2, 7
+    ******** Searching and Sorting, DFS, BFS ******* (class 6, 8, 13)
+  ***** Combinatorics, Logic and boolean algebra ***** (class 1, 11, 12)
+***** Coding mechanics (loops, control flow, etc.) ***** (all the beginners' exercises)
+```
+
 - To prepare for the Final Event, make sure you attempt/complete the [beginners' exerecises](https://github.com/miyagi-sensei/georgia/blob/main/beginners.md)
 - Try questions like [J191](https://judge.hkoi.org/task/J191) and [J172](https://judge.hkoi.org/task/J172) to get a feel of the mindset for some of these problems. Those questions are not demanding on coding skills but ask you to think about the problem in creative ways. They're great exercises for the competition on a non-coding level.
 
