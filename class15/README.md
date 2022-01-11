@@ -2,8 +2,7 @@
 [2021/22 Heat Event Junior Paper](https://github.com/miyagi-sensei/georgia/blob/main/class15/hkoi22hj.pdf)
 - Question A3 demo
 - algorithmic: 20, 21
-- logic/boolean: 1, 10, 19  
-- remind them boolean algebra from [class 14](https://github.com/miyagi-sensei/georgia/tree/main/class14)
+- logic/boolean: 1, 10, 19
 - counting: 18, 24, 25
 - code tracing: 14, 16, 17, 22, 23
 - code reading: 2, 5, 7, 8
