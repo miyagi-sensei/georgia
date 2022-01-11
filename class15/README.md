@@ -15,5 +15,5 @@ Exercise:
 1. How many ways are there is tile a 3x10 grid with only 1x3 tiles?
 2. Consider question A21, transform grid A to i and/or ii. Is it possible? <br>
     ![grids](https://github.com/miyagi-sensei/georgia/blob/main/class15/ex2.png)
-3. Start from A18 but draw a line connecting 1 and 3. How many ways can you color each vertex?<br>
+3. Consider question A18. How many ways can you color each vertex?<br>
     ![pentagon](https://github.com/miyagi-sensei/georgia/blob/main/class15/ex3.png)
