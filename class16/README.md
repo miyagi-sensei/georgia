@@ -63,6 +63,7 @@ How many bytes do you need to encode a number that may range from 1-15000 (or 0-
 |32|4,294,967,296|
 
 # B7
+![](https://github.com/miyagi-sensei/georgia/blob/main/class16/B7.jpeg)
 Boolean algebra: 
 - `!(A || B) == !A && !B`
 - `!(A && B) == !A || !B`
