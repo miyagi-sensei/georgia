@@ -12,9 +12,64 @@
 
 Exercise:
 1. How many ways are there is tile a 3x10 grid with only 1x3 tiles?
->
+> 28
 
 2. Consider question A21, transform grid A to i and/or ii. Is it possible? <br>
     ![grids](https://github.com/miyagi-sensei/georgia/blob/main/class15/ex2.png)
+> Grid A can be transformed to (i) but not to (ii).
+
 3. Consider question A18. How many ways can you color each vertex? (without assigning the same color to any adjacent vertices)<br>
     ![pentagon](https://github.com/miyagi-sensei/georgia/blob/main/class15/ex3.png)
+> 18
+
+### A25
+|scenario|probability|
+|---|---|
+|Alice got the first step wrong; Bob survives|3/4 * 1/3 * 1/4 * 1/4|
+|Alice got the first step right but second step wrong; Bob survives|1/4 * 3/4 * 1/3 * 1/4|
+|Alice got the first 2 steps right but third step wrong; Bob survives|1/4 * 1/4 * 3/4 * 1/3|
+Add up those 3 fractions and you get 3/64.
+
+### A13
+- [Stack concepts](https://youtu.be/F1F2imiOJfk); [Stack implementation](https://youtu.be/sFVxsglODoo)
+- [Queue concepts](https://youtu.be/XuCbpw6Bj1U); [Queue implementation](https://youtu.be/okr-XE8yTO8)
+- [Linked list concepts](https://youtu.be/NobHlGUjV3g); [Linked list implementation](https://youtu.be/NobHlGUjV3g)
+
+### A12
+If a team wins all the time, it would get 4 points. Only 1 team can score 4 points. 2 teams cannot both beat everybody.
+
+### A11
+Syntax: study [C++ order of precedence](https://en.cppreference.com/w/cpp/language/operator_precedence)
+
+### A6
+How many bytes do you need to encode a number that may range from 1-15000 (or 0-14999)?
+|number of bits|possible range|
+|---|---|
+|1|2|
+|2|4|
+|3|8|
+|4|16|
+|...|...|
+|8|256|
+|9|512|
+|10|1,024|
+|11|2,048|
+|12|4,096|
+|15|32,768|
+|16|65,536|
+|20|1,048,576|
+|30|1,073,741,824|
+|31|2,147,483,648|
+|32|4,294,967,296|
+
+# B7
+Boolean algebra: 
+- `!(A || B) == !A && !B`
+- `!(A && B) == !A || !B`
+- `A || B == !(!A && !B)`
+- `A && B == !(!A || !B)`
+
+## Exercise
+You ordered 10 container boxes of steel bars to build a bridge. Each box contains dozens of steel bars all of weight 100kg. But due to production irregularities, one box contains steel bars all weighing 101kg. You need to use a high-tech scale at the container terminal to determine which box to discard. The scale is very expensive to operate and cost $5000 every time you use it. How much budget should you ask your superior for this exercise?
+
+Code reading: B1, B4 and B6
