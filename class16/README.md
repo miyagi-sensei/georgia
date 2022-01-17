@@ -63,12 +63,69 @@ How many bytes do you need to encode a number that may range from 1-15000 (or 0-
 |32|4,294,967,296|
 
 # B7
-![](https://github.com/miyagi-sensei/georgia/blob/main/class16/B7.jpeg)
+![](https://github.com/miyagi-sensei/georgia/blob/main/class16/B7.jpeg)<br>
 Boolean algebra: 
 - `!(A || B) == !A && !B`
 - `!(A && B) == !A || !B`
 - `A || B == !(!A && !B)`
 - `A && B == !(!A || !B)`
+
+# B5
+|`i`|`a[i]`|binary|
+|---|---|---|
+|0|1|`0000001`|
+|1|2|`0000010`|
+|2|12|`0001100`|
+|3|0|`0000000`|
+|4|58|`0111010`|
+|5|74|`1001010`|
+|6|64|`1000000`|
+|7|92|`1011100`|
+|8|58|`0111010`|
+|9|???|`???????`|
+|`sum`|   |   |
+|target|118|`1110110`|
+```
+0000001
+0000010
+0001100
+0000000
+0111010
+1001010
+1000000
+1011100
+0111010
+-------
+1011001
+??????? ^
+-------
+1110110
+```
+
+### A2 - Coin change problem
+Greedy algorithm:
+```
+count = 0;
+for (i=n-1; i>=0; i--) {
+    b[i] = m / c[i];
+    m -= b[i] * c[i];
+}
+```
+- But we need to consider every possible combination.
+- Define P(m) as: minimum number of coins needed to get exact change for m
+- `P(m) = min( P(m-c[i]) ) + 1`         (for all i from 0 to n-1, inclusive)
+```
+def change(m):
+    if m == 0:
+        return 0
+    if m < 0:
+        return 10001
+    ans = 10000
+    for i in 1...n-1:
+        ans = min(ans, 1 + change(m - c[i])
+    return ans
+```
+Can you optimize it with memoization table?
 
 ## Exercise
 You ordered 10 container boxes of steel bars to build a bridge. Each box contains dozens of steel bars all of weight 100kg. But due to production irregularities, one box contains steel bars all weighing 101kg. You need to use a high-tech scale at the container terminal to determine which box to discard. The scale is very expensive to operate and cost $5000 every time you use it. How much budget should you ask your superior for this exercise?
