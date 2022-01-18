@@ -62,7 +62,7 @@ How many bytes do you need to encode a number that may range from 1-15000 (or 0-
 |31|2,147,483,648|
 |32|4,294,967,296|
 
-# B7
+### B7
 ![](https://github.com/miyagi-sensei/georgia/blob/main/class16/B7.jpeg)<br>
 Boolean algebra: 
 - `!(A || B) == !A && !B`
@@ -70,7 +70,7 @@ Boolean algebra:
 - `A || B == !(!A && !B)`
 - `A && B == !(!A || !B)`
 
-# B5
+### B5
 |`i`|`a[i]`|binary|
 |---|---|---|
 |0|1|`0000001`|
@@ -102,7 +102,7 @@ Boolean algebra:
 1110110
 ```
 
-### A2 - Coin change problem
+### B2 - Coin change problem
 Greedy algorithm:
 ```
 count = 0;
@@ -131,3 +131,6 @@ Can you optimize it with memoization table?
 You ordered 10 container boxes of steel bars to build a bridge. Each box contains dozens of steel bars all of weight 100kg. But due to production irregularities, one box contains steel bars all weighing 101kg. You need to use a high-tech scale at the container terminal to determine which box to discard. The scale is very expensive to operate and cost $5000 every time you use it. How much budget should you ask your superior for this exercise?
 
 Code reading: B1, B4 and B6
+
+## Homework
+Write a program to solve the Coin Change problem. First use Greedy algorithm. Then write the CORRECT solution that works all the time.
