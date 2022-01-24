@@ -1,4 +1,6 @@
 # Class 17 - Logic/Boolean/Bitwise
+Submit your answers by email to haye@miyagiacademy.com or by DM over Discord.
+
 1. `a`, `b`, `c` are 3 integer variables whereas `a < b`. Write a boolean expression that determines whether `c` is between `a` and `b` (inclusive) **without** using the logical AND operator `&&`. <br>
 In other words, write a boolean expression that is true if and only if `c` lies somewhere between `a` and `b` (inclusive).
 
@@ -189,9 +191,3 @@ Write down the return value of `g(10)`:
 Complete the function `f`, so that `f(n)` returns the same value as `g(n)` for `10 ≤ n ≤ 100`.
 * `______E______` should be:
 * `______F______` should be:
-
---------
-
-## How to submit your answers
-Put your answers for all 24 questions in a text file (`.txt`) in your replit folder and then send out the link to the file in the #homework Discord channel.
-![image](https://github.com/miyagi-sensei/twgss/blob/main/submit_hw.png)
