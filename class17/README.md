@@ -1,5 +1,4 @@
 # Class 17 - Logic/Boolean/Bitwise
-### Exercises
 1. `a`, `b`, `c` are 3 integer variables whereas `a < b`. Write a boolean expression that determines whether `c` is between `a` and `b` (inclusive) **without** using the logical AND operator `&&`. <br>
 In other words, write a boolean expression that is true if and only if `c` lies somewhere between `a` and `b` (inclusive).
 
@@ -10,7 +9,6 @@ The following 4 equations can be derived from each other.
 - `A || B == !(!A && !B)`
 - `A && B == !(!A || !B)`
 
-### Exercises
 2. Which of the following boolean expressions are logically equivalent to `P AND (NOT (Q OR R))`? (you may choose none, one or more than one answers)<br>
 i. `P AND ((NOT Q) AND (NOT R))`<br>
 ii. `NOT ((NOT P) OR (Q OR R))`
