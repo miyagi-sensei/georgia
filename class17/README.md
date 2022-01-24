@@ -11,7 +11,8 @@ The following 4 equations can be derived from each other.
 - `A || B == !(!A && !B)`
 - `A && B == !(!A || !B)`
 
-2. Which of the following boolean expressions are logically equivalent to `P AND (NOT (Q OR R))`? (you may choose none, one or more than one answers)<br>
+2. Which of the following boolean expressions are logically equivalent to `P AND (NOT (Q OR R))`?<br>
+*(you may choose none, one or more than one answers)*<br>
 i. `P AND ((NOT Q) AND (NOT R))`<br>
 ii. `NOT ((NOT P) OR (Q OR R))`
 
@@ -51,7 +52,8 @@ bool g(int ay1, int ay2, int ax1, int ax2,
 
 7. 81% of people in UK has a British accent. Of all the people with a British accent in the world, only 10% are outside UK. Most people in UK likes beer. Therefore at least 1/3 of people with a British accent likes beer.
 
-8. Suppose `a` and `b` are 32-bit signed integer variables (`int`) each storing a positive integer, which of the following expressions are equivalent to (i)? (you may choose none, one or more than one answers)<br>
+8. Suppose `a` and `b` are 32-bit signed integer variables (`int`) each storing a positive integer, which of the following expressions are equivalent to (i)? <br>
+*(you may choose none, one or more than one answers)*<br>
 i. `a == b`<br>
 ii. `(a ^ b) == 0`<br>
 iii. `(a | b) == (a & b)`<br>
@@ -125,13 +127,15 @@ char g(char ch) {
 }
 ```
 
-19. If there are COVID cases in school, school would be cancelled; if school is cancelled and it is not raining, Ocean Park would be very crowded. Ocean park is not very crowded. Which of the followings must be true? <br>(you may choose none, one or more than one answers)<br>
+19. If there are COVID cases in school, school would be cancelled; if school is cancelled and it is not raining, Ocean Park would be very crowded. Ocean park is not very crowded. Which of the followings must be true? <br>
+*(you may choose none, one or more than one answers)*<br>
 i. There is no COVID cases in school<br>
 ii. Either school is not cancelled or it is raining<br>
 iii. It is raining outside<br>
 iv. School is not cancelled<br>
 
-20. If there are COVID cases in school, school would be cancelled and tuition fee would be refunded; if school is cancelled, Ocean Park would be very crowded. Ocean park is not very crowded. Which of the followings must be true? <br>(you may choose none, one or more than one answers)<br>
+20. If there are COVID cases in school, school would be cancelled and tuition fee would be refunded; if school is cancelled, Ocean Park would be very crowded. Ocean park is not very crowded. Which of the followings must be true? <br>
+*(you may choose none, one or more than one answers)*<br>
 i. There is no COVID cases in school<br>
 ii. Tuition fee would be refunded<br>
 iii. School would be cancelled or tuition fee would be refunded<br>
@@ -152,7 +156,8 @@ B. `(A OR B) XOR (A XOR B)`<br>
 C. `(A OR B) OR (A AND B)`<br>
 D. `(A OR B) XOR (A NOR B)`<br>
 
-22. Which of the following boolean expressions are logically equivalent? (you may choose none, one or more than one answers)<br>
+22. Which of the following boolean expressions are logically equivalent?<br>
+*(you may choose none, one or more than one answers)*<br>
 i. `((NOT a) AND b) OR (a AND (NOT b))`<br>
 ii. `NOT (a = b)`<br>
 iii. `NOT ((NOT a) = (NOT b))`<br>
