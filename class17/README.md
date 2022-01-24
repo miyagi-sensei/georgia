@@ -71,7 +71,7 @@ int i, sum;
 int main() {
     a[9] = _______C_______;
     sum = 0;
-    for (i=0; i<10; i++)
+    for (i = 0; i < 10; i++)
         sum = sum ^ a[i];
     if (sum == 108)
         cout << "HKOI";
