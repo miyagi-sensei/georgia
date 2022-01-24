@@ -18,6 +18,7 @@ ii. `NOT ((NOT P) OR (Q OR R))`
 3. Given a function `f` that takes the coordinates of two horizontal line segments as prameters, where:
     * line segment `a` connects two points `(ax1, ay)` and `(ax2, ay)` and it is guaranteed that `ax1 ≤ ax2`.
     * line segment `b` connects two points `(bx1, by)` and `(bx2, by)` and it is guaranteed that `bx1 ≤ bx2`.
+
     Complete `f` **WITHOUT** using any function calls, so that it returns `true` if and only if `a` and `b` share at least one point.
 ```
 bool f(int ay, int ax1, int ax2, 
@@ -44,17 +45,17 @@ bool g(int ay1, int ay2, int ax1, int ax2,
 
 4. Most Americans are confident. Most Americans are white. Therefore most white people are confident. Is this true (is this deduction logical)?
 
-5. Most Americans are confident. Most confident people are welathy. Therefore most Americans are wealthy. Is this true (is this deduction logical)?
+5. Most Americans are confident. Most confident people are wealthy. Therefore most Americans are wealthy. Is this true (is this deduction logical)?
 
-6. 80% of people in UK has a British accent. Most people in UK likes beer. Therefore at least 1/3 of people with a British accent likes beer.
+6. 81% of people in UK has a British accent. Most people in UK likes beer. Therefore at least 1/3 of people with a British accent likes beer.
 
-7. 80% of people in UK has a British accent. Of all the people with a British accent in the world, only 10% are outside UK. Most people in UK likes beer. Therefore at least 1/3 of people with a British accent likes beer.
+7. 81% of people in UK has a British accent. Of all the people with a British accent in the world, only 10% are outside UK. Most people in UK likes beer. Therefore at least 1/3 of people with a British accent likes beer.
 
-8. Suppose `a` and `b` are 32-bit signed integer variables (`int`) each storing a positive integer, which of the following expressions are equivalent to (i)? (you may choose none, one or more than one answers)
-i. `a == b`
-ii. `(a ^ b) == 0`
-iii. `(a | b) == (a & b)`
-iv. `(a + b) / 2 == a`
+8. Suppose `a` and `b` are 32-bit signed integer variables (`int`) each storing a positive integer, which of the following expressions are equivalent to (i)? (you may choose none, one or more than one answers)<br>
+i. `a == b`<br>
+ii. `(a ^ b) == 0`<br>
+iii. `(a | b) == (a & b)`<br>
+iv. `(a + b) / 2 == a`<br>
 
 ### `^` - XOR
 - b is a boolean/bit (`0` or `1`)
@@ -94,7 +95,7 @@ B. `(A nor A) nor B`<br>
 C. `(A nor B) nor B`<br>
 D. `(A nor B) nor (B nor B)`<br>
 
-14. Suppose `x` is a boolean variable. Is the following expression always true?
+14. Suppose `x` is a boolean variable. Is the following expression always true?<br>
 `(x && (!x)) == false`
 
 15. Which of the following pair(s) of boolean expressions are logically equivalent?<br>
@@ -183,12 +184,13 @@ int f(int n) {
 int g(int n) {
     int i, sum;
     sum = 0;
-    for (i=1; i <= n; i++)
+    for (i = 1; i <= n; i++)
         sum = sum ^ i;
     return sum;
 }
 ```
-Write down the return value of `g(10)`:
+Write down the return value of `g(10)`:<br>
+
 Complete the function `f`, so that `f(n)` returns the same value as `g(n)` for `10 ≤ n ≤ 100`.
 * `______E______` should be:
 * `______F______` should be:
