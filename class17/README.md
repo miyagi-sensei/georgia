@@ -70,10 +70,11 @@ int i, sum;
 int main() {
     a[9] = _______C_______;
     sum = 0;
-    for (i=0; i<10; i++) {
+    for (i=0; i<10; i++)
         sum = sum ^ a[i];
     if (sum == 108)
-    }
+        cout << "HKOI";
+    return 0;
 }
 ```
 `_____C_____` should be:
@@ -191,3 +192,4 @@ Write down the return value of `g(10)`:
 Complete the function `f`, so that `f(n)` returns the same value as `g(n)` for `10 ≤ n ≤ 100`.
 * `______E______` should be:
 * `______F______` should be:
+
