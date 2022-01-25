@@ -1,13 +1,13 @@
 # Class 16
 [2021/22 Heat Event Junior Paper](https://github.com/miyagi-sensei/georgia/blob/main/class15/hkoi22hj.pdf)
-- algorithmic: 20, 21, B2
 - logic/boolean/bitwise: 1, 10, 19, B5, B7
-- counting: 18, 24, 25
 - code tracing: 14, 16, 17, 22, 23
-- code reading: 2, 5, 7, 8, B1, B4, B6
-- analytical: 3, 12, B3
 - data structure: 13
 - search and sorting: 4, 15
+- code reading: 2, 5, 7, 8, B1, B4, B6
+- counting: 18, 24, 25
+- algorithmic: 20, 21, B2
+- analytical: 3, 12, B3
 - encoding/basics/syntax: 6, 11
 
 Exercise:
