@@ -205,3 +205,30 @@ Complete the function `f`, so that `f(n)` returns the same value as `g(n)` for `
 * `______E______` should be:
 * `______F______` should be:
 
+---
+
+## Answer Key
+1. `!(c < a || c > b)` / `c >= a && c <= b` / `c < a ^ c <= b`
+2. i and ii
+3. A: `(bx1 ≤ ax2 && bx2 ≥ ax1) && ay == by` or <br>`!(bx1 > ax2 || bx2 < ax1) && ay == by`, <br>B: `f(1, ax1, ax2, 1, bx1, bx2)`
+4. False
+5. False
+6. False
+7. True
+8. ii and iii.
+9. 0
+10. 0
+11. 1
+12. C: 53
+13. A
+14. Yes.
+15. C
+16. 34, 68
+17. 8, 4
+18. D: `x ^ 32`. See [ASCII table](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html)
+19. ii
+20. i, iv
+21. D
+22. i, ii and iii
+23. 9
+24. 11, E: `n+1`, F: `f(n-1) ^ n`
