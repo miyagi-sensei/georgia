@@ -1,7 +1,7 @@
 # Class 17 - Logic/Boolean/Bitwise
 - Make sure your name and info is populated in the "Info" tab of this Google Sheet: [grade book](https://docs.google.com/spreadsheets/d/153Rdb201QqXYEgA10LkmzH0EehwarO_dim-_EhImt_E/edit?usp=sharing)
 - Submit your answers by email to haye@miyagiacademy.com or by DM @sensei over Discord.
-   - Or put your answers in your replit folder as a .txt file, then submit the link to the 
+   - Or put your answers in your replit folder as a .txt file, then submit the link to the #during-training discord channel.
 
 ---
 
