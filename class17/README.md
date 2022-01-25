@@ -1,5 +1,9 @@
 # Class 17 - Logic/Boolean/Bitwise
-Submit your answers by email to haye@miyagiacademy.com or by DM @sensei over Discord.
+- Make sure your name and info is populated in the "Info" tab of this Google Sheet: [grade book](https://docs.google.com/spreadsheets/d/153Rdb201QqXYEgA10LkmzH0EehwarO_dim-_EhImt_E/edit?usp=sharing)
+- Submit your answers by email to haye@miyagiacademy.com or by DM @sensei over Discord.
+   - Or put your answers in your replit folder as a .txt file, then submit the link to the 
+
+---
 
 1. `a`, `b`, `c` are 3 integer variables whereas `a < b`. Write a boolean expression that determines whether `c` is between `a` and `b` (inclusive) **without** using the logical AND operator `&&`. <br>
 In other words, write a boolean expression that is true if and only if `c` lies somewhere between `a` and `b` (inclusive).
