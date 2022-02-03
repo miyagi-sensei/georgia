@@ -26,7 +26,7 @@ ii. `NOT ((NOT P) OR (Q OR R))`
     * line segment `b` connects two points `(bx1, by)` and `(bx2, by)` and it is guaranteed that `bx1 ≤ bx2`.
 
     Complete `f` **WITHOUT** using any function calls, so that it returns `true` if and only if `a` and `b` share at least one point.
-```
+```cpp
 bool f(int ay, int ax1, int ax2, 
        int by, int bx1, int bx2) {
     return _______A_______
@@ -38,7 +38,7 @@ bool f(int ay, int ax1, int ax2,
     * rectange`a` has `(ax1, ay1)` as bottom-left vertex and `(ax2, ay2)` as top-right vertex. It is guaranteed that `ax1 ≤ ax2` and `ay1 ≤ ay2`.
     * line segment `b` connects two points `(bx1, by)` and `(bx2, by)` and it is guaranteed that `bx1 ≤ bx2`.
 * Complete `g`, so that it returns `true` if and only if `a` and `b` share at least one point. You may use function `f` in function `g`.
-```
+```cpp
 bool g(int ay1, int ay2, int ax1, int ax2,
        int by, int bx1, int bx2) {
     if (ay1 > by || ay2 < by)
@@ -72,7 +72,7 @@ iv. `(a + b) / 2 == a`<br>
 10. What about `0^0^1^0^1^1^0^0^1`?
 11. What about `0^1^0^0^1^0^1^1^0^1^1^0^1`?
 12. Complete the following program such that its output is `HKOI`.
-```
+```cpp
 int a[10] = {1, 2, 12, 0, 58, 74, 64, 92, 58, 0};
 int i, sum;
 int main() {
@@ -120,7 +120,7 @@ What do you notice?
 What do you notice?
 
 18. Complete the function `f(x)` so that the function `g(ch)` can convert lowercasew letters to uppercase and vice versa. For example, `g('A')` should return `a` and `g('q')` should return `Q`. Fill in `_____D_____`.
-```
+```cpp
 int f(int x) {
     return ________D_______;
 }
@@ -168,7 +168,7 @@ ii. `NOT (a = b)`<br>
 iii. `NOT ((NOT a) = (NOT b))`<br>
 
 23. What is the output of the following program?
-```
+```cpp
 int x, i, c, t;
 int main() {
     x = 79665;
@@ -184,7 +184,7 @@ int main() {
 ```
 
 24. Consider the following program segment:
-```
+```cpp
 int f(int n) {
     if (n % 4 == 2)
         return ______E______;
