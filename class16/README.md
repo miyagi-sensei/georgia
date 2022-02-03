@@ -104,7 +104,7 @@ Boolean algebra:
 
 ### B2 - Coin change problem
 Greedy algorithm:
-```
+```cpp
 count = 0;
 for (i=n-1; i>=0; i--) {
     b[i] = m / c[i];
@@ -114,7 +114,7 @@ for (i=n-1; i>=0; i--) {
 - But we need to consider every possible combination.
 - Define P(m) as: minimum number of coins needed to get exact change for m
 - `P(m) = min( P(m-c[i]) ) + 1`         (for all i from 0 to n-1, inclusive)
-```
+```python
 def change(m):
     if m == 0:
         return 0
