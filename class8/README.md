@@ -13,7 +13,7 @@
 - can also do `pair<int, string>`, `pair<string, double>`, `pair<bool, int>`, `pair<char, int>`....
 
 ### Program template:
-```
+```cpp
 #include <iostream>
 using namespace std;
 pair<long long, long long> A[100];
@@ -39,13 +39,13 @@ int main() {
 }
 ```
 A useful function:
-```
+```cpp
 long long moliu_index(pair<long long, long long> p) {
     return p.first * p.first + p.second * p.second;
 }
 ```
 ### Bubble sort:
-```
+```cpp
 void bubblesort() {
     int i, j;
     for (i=1; i<N; i++) {
@@ -58,7 +58,7 @@ void bubblesort() {
 }
 ```
 ### Insertion sort:
-```
+```cpp
 void insertion_sort() {
     int i, j;
     for (i=1; i<N; i++)
@@ -69,7 +69,7 @@ void insertion_sort() {
 ```
 
 ### Merge sort:
-```
+```cpp
 // merge 2 sorted arrays A[l1:r1] and A[l2:r2] (l2=r1+1 always)
 // then put the merged result back in A[l1:r2]
 void merge(int l1, int r1, int l2, int r2){
@@ -104,31 +104,30 @@ void mergesort(int l, int r){
 ```
 ### built-in `sort()` function
 "hacking" with nested `pair`, taking advantage of the way `sort()` orders based on the `first` of the `pair`
-```
+```cpp
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+typedef long long ll;
 int N;
-pair<long long, pair<int, int> > A[100];
+pair<ll, pair<ll, ll> > A[100];
 
 int main()
 {
-    int i, j, x, y;
+    ll i, j, x, y;
     cin >> N;
     for (i=0; i<N; i++) {
         cin >> x >> y;
-        A[i] = {(long long)x*x + (long long)y*y, {x, y}};
+        A[i] = {x*x + y*y, {x, y}};
     }
     sort(A, A+N);
-    for (i=0; i<N; i++) {
+    for (i=0; i<N; i++)
         cout << A[i].second.first << " " << A[i].second.second << endl;
-    }
     return 0;
 }
 ```
 ### using built-in `sort()` to create a ranked index first
-```
+```cpp
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -155,7 +154,7 @@ int main()
 }
 ```
 ### using built-in `sort()` with a custom compare function
-```
+```cpp
 #include <iostream>
 #include <algorithm>
 using namespace std;
