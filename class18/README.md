@@ -1,6 +1,6 @@
 # Class 18 - Code Tracing (Dry Run)
-**Do not cheat by using the computer to run these code. These are valuable practice exercises for your "mind muscles".**
-Submit your answers by email to haye@miyagiacademy.com or put the replit link to your answers at the "Info" sheet in [Grade Book](https://docs.google.com/spreadsheets/d/153Rdb201QqXYEgA10LkmzH0EehwarO_dim-_EhImt_E/edit?usp=sharing)
+**Do not cheat by using the computer to run these code. These are valuable practice exercises for your "mind muscles".**<br>
+Submit your answers by email to haye@miyagiacademy.com or put the replit link to your answers at the "Info" sheet in [Grade Book](https://docs.google.com/spreadsheets/d/153Rdb201QqXYEgA10LkmzH0EehwarO_dim-_EhImt_E/edit?usp=sharing).
 
 1. What is the output of the following program?
 ```cpp
