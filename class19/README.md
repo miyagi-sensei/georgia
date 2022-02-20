@@ -6,7 +6,7 @@
 ![stack and queue](https://i.imgur.com/ysW3Ev2.png)
 ![linked list](https://i.imgur.com/YZIF1Gn.png)
 
-## Queue
+## 1. Queue
 ```python
 init(): head = 0; tail = 0;
 size(): return tail - head;
@@ -28,18 +28,12 @@ PUSH 5
 FRONT
 SIZE
 ```
-### Application - breadth first search (BFS)
-<iframe
-    width="640"
-    height="480"
-    src="https://youtube.com/embed/8ADGl4is9Qs"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+[Queue Illustration](https://youtu.be/nvSKeowGG04)
 
-## Stack
+### Application - breadth first search (BFS)
+[![Demo](https://i.imgur.com/mEKMZDH.png)](https://youtube.com/embed/8ADGl4is9Qs)
+
+## 2. Stack
 ```python
 init(): top = 0; bottom = 0;
 size(): return top - bottom;
@@ -61,17 +55,24 @@ PUSH 5
 TOP
 SIZE
 ```
+[Stack Illustration](https://youtu.be/VWHBA_JOkMc)
+
 ### Application - depth first search (DFS)
-![](https://i.imgur.com/mEKMZDH.png)
+[![Demo](https://i.imgur.com/mEKMZDH.png)](https://youtube.com/embed/gnL54Lg6NbA)
 
-## (Singly) Linked List
-[Concept](https://youtu.be/NobHlGUjV3g)
-[Implementation](https://youtu.be/vcQIFT79_50)
-Implementation illustration: 
-- Beiju Text: "stacks [use more memory than [linked lists "
-<br><br><br><br><br><br>
+## 3. (Singly) Linked List
+- [Concept](https://youtu.be/NobHlGUjV3g)
+- [Implementation](https://youtu.be/vcQIFT79_50)
+- Implementation illustration: 
+<br><br>
 
-## Exercises
+### Application - Beiju Text
+`“stacks [use more memory than [linked lists “`
+
+[Beiju Text Illustration](https://youtu.be/6L2c4uR38uw")
+<!-- [![Demo](https://i.imgur.com/GQh4JrL.png)](https://youtube.com/embed/6L2c4uR38uw) -->
+
+## 4. Exercises
 - [D701 Queue](https://judge.hkoi.org/task/D701)
 - [D702 Stack](https://judge.hkoi.org/task/D702)
 - Singly Linked List: [D703](https://judge.hkoi.org/task/D703), [D704](https://judge.hkoi.org/task/D704), [D705](https://judge.hkoi.org/task/D705)
@@ -80,7 +81,7 @@ Implementation illustration:
 - [Broken Keyboard (a.k.a. Beiju Text)](https://judge.hkoi.org/task/31988)
 - Advanced Stack exercise: [Largest Histogram](https://judge.hkoi.org/task/32462)
 
-## Written Test
+## 5. Written Test
 1. Consider the following program segment:
 ```cpp
 int a[100];
@@ -178,9 +179,3 @@ int main() {
     return 0;
 }
 ```
-
-## Answer Key to Written Test
-1. C
-2. D
-3. C
-4. `Empty 4 8 Empty`
