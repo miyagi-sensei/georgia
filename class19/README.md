@@ -138,7 +138,7 @@ int main() {
     return 0;
 }
 ```
-Which of the following inputs have the output?<br>
+Which of the following inputs have the same output?<br>
 i. `1 4 3 2`<br>
 ii. `4 3 2 1`<br>
 iii. `4 2 3 1`<br>
