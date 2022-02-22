@@ -1,20 +1,24 @@
-# Data Structure
+# Class 19 - Data Structure
 - Stack
 - Queue
 - (Singly) Linked List
 - .... (deque, doubly-linked-list, priority queues, trees, etc. some other day)
+- What is Abstract Data Type (ADT)?
+
 ![stack and queue](https://i.imgur.com/ysW3Ev2.png)
 ![linked list](https://i.imgur.com/YZIF1Gn.png)
 
 ## 1. Queue
-```python
+```cpp
+int arr[1000000];
 init(): head = 0; tail = 0;
 size(): return tail - head;
 push(v): arr[tail] = v; tail++;
 front(): return arr[head];
 pop(): head++;
 ```
-Implementation illustration:
+Alternative implementations: [using array](https://github.com/miyagi-sensei/georgia/blob/main/class19/array.cpp), [using vector](https://github.com/miyagi-sensei/georgia/blob/main/class19/vector.cpp), [another way using vector](https://github.com/miyagi-sensei/georgia/blob/main/class19/vector2.cpp)
+### Implementation illustration:
 ```
 PUSH 3
 PUSH 7
@@ -32,16 +36,17 @@ SIZE
 
 ### Application - breadth first search (BFS)
 [![Demo](https://i.imgur.com/mEKMZDH.png)](https://youtube.com/embed/8ADGl4is9Qs)
-
+ 
 ## 2. Stack
-```python
+```cpp
+int arr[1000000];
 init(): top = 0; bottom = 0;
 size(): return top - bottom;
 push(v): arr[top] = v; top++;
 front(): return arr[top-1];
 pop(): top--;
 ```
-Implementation illustration:
+### Implementation illustration:
 ```
 PUSH 3
 PUSH 7
@@ -63,14 +68,17 @@ SIZE
 ## 3. (Singly) Linked List
 - [Concept](https://youtu.be/NobHlGUjV3g)
 - [Implementation](https://youtu.be/vcQIFT79_50)
-- Implementation illustration: 
-<br><br>
+
+### Implementation illustration: 
+[Linked List Illustration](https://youtu.be/vrxPj3cwzOg)
+
+[Linked List Insertion/Deletion](https://youtu.be/vrxPj3cwzOg)
 
 ### Application - Beiju Text
 `“stacks [use more memory than [linked lists “`
 
-[Beiju Text Illustration](https://youtu.be/6L2c4uR38uw")
-<!-- [![Demo](https://i.imgur.com/GQh4JrL.png)](https://youtube.com/embed/6L2c4uR38uw) -->
+[Beiju Text Illustration](https://youtu.be/0MjkZcXDtcw")
+<!-- [![Demo](https://i.imgur.com/GQh4JrL.png)](https://youtube.com/embed/0MjkZcXDtcw) -->
 
 ## 4. Exercises
 - [D701 Queue](https://judge.hkoi.org/task/D701)
@@ -179,3 +187,9 @@ int main() {
     return 0;
 }
 ```
+
+## Answer Key to Written Test
+1. C
+2. D
+3. C
+4. `Empty 4 8 Empty`
