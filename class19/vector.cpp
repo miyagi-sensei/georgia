@@ -22,20 +22,16 @@ void push(int v) {
     Queue.push_back(v);
 }
 int main(){
-	int i, j, value;
-	string cmd;
-	cin >> N;
-	for (i=0; i<N; i++) {
-		cin >> cmd;
-		if (cmd == "SIZE") {
-			cout << size() << endl;
-		} else if (cmd == "FRONT") {
-			front();
-		} else if (cmd == "POP") {
-			pop();
-		} else {
-			cin >> value;
-			push(value);
-		}
-	}
+    push(3);
+    push(7);
+    push(4);
+    cout << size() << endl;
+    front();
+    pop();
+    front();
+    pop();
+    push(5);
+    front();
+    cout << size() << endl;
+    return 0;
 }

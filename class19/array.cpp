@@ -1,25 +1,25 @@
 #include <iostream>
-#include <vector>
 using namespace std;
-vector<int> Queue;
-int N, Head;
+int Queue[1000];
+int N, Tail, Head;
 int size() {
-    return Queue.size();
+    return Tail - Head;
 }
 void front() {
     if(size() == 0)
         cout << "Empty" << endl;
     else
-        cout << Queue[0] << endl;
+        cout << Queue[Head] << endl;
 }
 void pop() {
     if(size() == 0)
         cout << "Cannot pop" << endl;
     else
-        Queue.erase(Queue.begin());
+        Head++;
 }
 void push(int v) {
-    Queue.push_back(v);
+    Queue[Tail] = v;
+    Tail++;
 }
 int main(){
     push(3);
