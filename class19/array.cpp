@@ -5,7 +5,7 @@ int N, Tail, Head;
 int size() {
     return Tail - Head;
 }
-void front() {
+int front() {
     return Queue[Head];
 }
 void pop() {
