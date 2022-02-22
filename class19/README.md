@@ -86,9 +86,9 @@ SIZE
 - Singly Linked List: [D703](https://judge.hkoi.org/task/D703), [D704](https://judge.hkoi.org/task/D704), [D705](https://judge.hkoi.org/task/D705)
 - [01017 Car Sorter](https://judge.hkoi.org/task/01017)
 - [20514 Rails](https://judge.hkoi.org/task/20514)
-- [Broken Keyboard (a.k.a. Beiju Text)](https://judge.hkoi.org/task/31988)
-- Advanced Stack exercise: [Largest Histogram](https://judge.hkoi.org/task/32462)
-
+- [31988 Broken Keyboard (a.k.a. Beiju Text)](https://judge.hkoi.org/task/31988)
+- Advanced Stack exercise: [32462 Largest Histogram](https://judge.hkoi.org/task/32462)
+- 
 ## 5. Written Test
 1. Consider the following program segment:
 ```cpp
