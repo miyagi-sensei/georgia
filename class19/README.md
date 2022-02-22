@@ -187,9 +187,3 @@ int main() {
     return 0;
 }
 ```
-
-## Answer Key to Written Test
-1. C
-2. D
-3. C
-4. `Empty 4 8 Empty`
