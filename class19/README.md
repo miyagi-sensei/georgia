@@ -103,11 +103,11 @@ int g() {
     return a[p];
 }
 ```
-Which of the following data structures does the above program segment implement?
-A. Queue
-B. Cyclic queue (circular buffer)
-C. Stack
-D. Linked list
+Which of the following data structures does the above program segment implement?<br>
+A. Queue<br>
+B. Cyclic queue (circular buffer)<br>
+C. Stack<br>
+D. Linked list<br>
 
 2. `swap(a, b)` is a function swapping the values of `a` and `b`. Consider the following program:
 ```cpp
@@ -138,23 +138,23 @@ int main() {
     return 0;
 }
 ```
-Which of the following inputs have the output?
-i. `1 4 3 2`
-ii. `4 3 2 1`
-iii. `4 2 3 1`
-A. i and ii only
-B. i and iii only
-C. ii and iii only
-D. i, ii and iii
+Which of the following inputs have the output?<br>
+i. `1 4 3 2`<br>
+ii. `4 3 2 1`<br>
+iii. `4 2 3 1`<br>
+A. i and ii only<br>
+B. i and iii only<br>
+C. ii and iii only<br>
+D. i, ii and iii<br>
 
-3. Suppose you now have an empty stack and a queue of 7 numbers. You can perform the following actions arbitrarily:
-    i. If the queue is not empty: pop the front element from the queue and push it into the stack.
-    ii. If the stack is not empty: pop an element from the stack and output it.<br>
-Given the queue has 4, 7, 3, 2, 5, 1, 6 (in this order) with 4 being the front element initially. Which of the following can be an output sequence?
-A. 6, 1, 5, 2, 7, 3, 4
-B. 3, 4, 7, 5, 2, 1, 6
-C. 2, 3, 1, 5, 7, 6, 4
-D. 4, 7, 3, 1, 2, 5, 6
+3. Suppose you now have an empty stack and a queue of 7 numbers. You can perform the following actions arbitrarily:<br>
+    i. If the queue is not empty: pop the front element from the queue and push it into the stack.<br>
+    ii. If the stack is not empty: pop an element from the stack and output it.<br><br>
+Given the queue has 4, 7, 3, 2, 5, 1, 6 (in this order) with 4 being the front element initially. Which of the following can be an output sequence?<br>
+A. 6, 1, 5, 2, 7, 3, 4<br>
+B. 3, 4, 7, 5, 2, 1, 6<br>
+C. 2, 3, 1, 5, 7, 6, 4<br>
+D. 4, 7, 3, 1, 2, 5, 6<br>
 
 4. What is the ouptput of the following program?
 ```cpp
