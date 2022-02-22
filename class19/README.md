@@ -43,7 +43,7 @@ int arr[1000000];
 init(): top = 0; bottom = 0;
 size(): return top - bottom;
 push(v): arr[top] = v; top++;
-front(): return arr[top-1];
+top(): return arr[top-1];
 pop(): top--;
 ```
 ### Implementation illustration:
@@ -75,7 +75,7 @@ SIZE
 [Linked List Insertion/Deletion](https://youtu.be/vrxPj3cwzOg)
 
 ### Application - Beiju Text
-`“stacks [use more memory than [linked lists “`
+`“green [are [trees “`
 
 [Beiju Text Illustration](https://youtu.be/0MjkZcXDtcw")
 <!-- [![Demo](https://i.imgur.com/GQh4JrL.png)](https://youtube.com/embed/0MjkZcXDtcw) -->
