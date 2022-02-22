@@ -6,16 +6,10 @@ int size() {
     return Tail - Head;
 }
 void front() {
-    if(size() == 0)
-        cout << "Empty" << endl;
-    else
-        cout << Queue[Head] << endl;
+    return Queue[Head];
 }
 void pop() {
-    if(size() == 0)
-        cout << "Cannot pop" << endl;
-    else
-        Head++;
+    Head++;
 }
 void push(int v) {
     Queue[Tail] = v;
@@ -26,12 +20,12 @@ int main(){
     push(7);
     push(4);
     cout << size() << endl;
-    front();
+    cout << front() << endl;
     pop();
-    front();
+    cout << front() << endl;
     pop();
     push(5);
-    front();
+    cout << front() << endl;
     cout << size() << endl;
     return 0;
 }
