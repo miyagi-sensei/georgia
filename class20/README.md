@@ -50,3 +50,4 @@ for i in 1...N:
 go through the residuals of the monotonic stack and consider all those rectangles too
 print max_area        
 ```
+[Illustration](https://youtu.be/MIY6c1Y8X1A)
