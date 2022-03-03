@@ -72,7 +72,7 @@ SIZE
 ### Implementation illustration: 
 [Linked List Illustration](https://youtu.be/vrxPj3cwzOg)
 
-[Linked List Insertion/Deletion](https://youtu.be/vrxPj3cwzOg)
+[Linked List Insertion/Deletion](https://youtu.be/pw6mobV3-l4)
 
 ### Application - Beiju Text
 `“green [are [trees “`
