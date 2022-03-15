@@ -27,9 +27,9 @@ int main() {
 - Review [Class 13 notes](https://github.com/miyagi-sensei/georgia/tree/main/class13)
 ### Exercises
 - [D801](https://judge.hkoi.org/task/D801)
-- [M1023 Seating Plan](https://judge.hkoi.org/task/M1023)
-        - Ask: Can I pick M seats with minimum distance of d? (Call this boolean function `try(d)`)
-        - With this function, perform a search to find the largest d where try(d) is `true`
+- [M1023 Seating Plan](https://judge.hkoi.org/task/M1023)<br>
+        - Ask: Can I pick M seats with minimum distance of d? (Call this boolean function `try(d)`)<br>
+        - With this function, perform a search to find the largest d where try(d) is `true`<br>
         - You can perform a linear search first and then optimize it to binary search afterwards
 - Extra Credit: [M1222 Longest Increasing Subsequence](https://judge.hkoi.org/task/M1222)
 
