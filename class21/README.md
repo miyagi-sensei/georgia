@@ -184,8 +184,9 @@ int main() {
     return 0;
 }
 ```
-Part 1: If the input is `BABBAB`, what is the output?
-Part 2: Give an input with `A` and `B` **only**, such that the program outputs `246135`.
+Part 1: If the input is `BABBAB`, what is the output?<br>
+Part 2: Give an input with `A` and `B` **only**, such that the program outputs `246135`.<br>
+
 
 ---
 
