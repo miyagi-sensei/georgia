@@ -187,9 +187,22 @@ int main() {
 Part 1: If the input is `BABBAB`, what is the output?<br>
 Part 2: Give an input with `A` and `B` **only**, such that the program outputs `246135`.<br>
 
-
 ---
 
 ## 4. Bonus Materials
 Proof that no *comparison* sorting algorithm can be faster than `O(NlogN)`: https://youtu.be/Nz1KZXbghj8?t=1224
 > That's why computer scientist need to be strong in logic (so you can prove things) and in discrete math (so you can count and then draw mathematical conclusion for performance).
+
+---
+
+## 5. Answer Key
+1. False
+2. 6
+3. 28
+4. 27
+5. 42
+6. False
+7. C
+8. C
+9. `(N-1) * N / 2`
+10. `215346` and `BABABA`
