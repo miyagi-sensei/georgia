@@ -29,7 +29,7 @@ int main() {
 ```cpp
 void recur(int i) {
     if (i == 4) {
-        cout << "IOI";
+        cout << "IOI" << endl;
         return;
     }
     for (int j=0; j<a[i]; j++)
