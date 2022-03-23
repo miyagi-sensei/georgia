@@ -446,3 +446,26 @@ The bug can be fixed by changing exactly one line. Find the line and correct it 
 
 - Line number: ________________
 - Correction: ________________
+
+---
+
+# Answer Key
+1. False
+2. True
+3. False (Each separate call to `A()` generates another random number. Same for `B()`)
+4. `1 0 1`
+5. `5`
+6. A: `b[i] += b[i-1];`, <br>B: `b[9-i] -= b[8-i-];`
+7. C: `s < x && s < y` or `s < min(x, y)`,<br> D: `a[s] < b[s]`, <br>E: `a[s] > b[s]`, <br>F: `s`
+8. `6`, <br>`3`, <br>`25`
+9. `101 101 1820`
+10. D
+11. `"ARENA"[i] - 'A'` or `(a[i]+9)%26` or `a[i] + (i%2)*26 - 17`
+12. H: `abs(i - a[j])`, <br>I: `temp`, <br>J: `i`, <br>K: `a[200]`
+13. B & C
+14. C
+15. `240`
+16. A, B, C
+17. C
+18. line 11, `for (i=0; i<=10000; i++)` or `for (i=0; i<10001; i++)`
+19. line 19, `else i++;` or <br>line 17, `n--; i--;` or <br>line 17, `n--; continue;` or<br>line 18, `else`
