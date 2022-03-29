@@ -26,10 +26,10 @@ What is the number of possible different outputs?
 #### 6. There are four doors numbered from 1 to 4. A gift is placed behind one of these four doors. You have the following information:
 |Door|Time to unlock this door|Probability of the gift behind this door|
 |---|---|---|
-|1|10 seconds|0.2|
-|2|10 seconds|0.25|
-|3|15 seconds|0.2|
-|4|30 seconds|0.5|
+|1|10 seconds|0.1|
+|2|20 seconds|0.3|
+|3|10 seconds|0.2|
+|4|30 seconds|0.4|
 
 You are going to unlock the doors one by one in any order you want, until you find the gift. What is the best strategy to unlock the doors so that the expected time required can be minimized? (The time walking between doors can be omitted) Choose one answer
 
@@ -37,7 +37,7 @@ A. Door 2 -> Door 1 -> Door 3 -> Door 4
 
 B. Door 4 -> Door 3 -> Door 1 -> Door 2
 
-C. Door 2 -> Door 3 -> Door 4 -> Door 1
+C. Door 3 -> Door 2 -> Door 4 -> Door 1
 
 D. Door 2 -> Door 1 -> Door 4 -> Door 3
 
