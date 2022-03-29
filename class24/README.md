@@ -4,7 +4,7 @@ Submit your answers by email to haye@miyagiacademy.com or by DM over Discord.
 
 #### 1. A fair 6-faced dice is thrown 3 times. What is the probability that the 3 numbers thrown are strictly increasing? (Express it in a fraction, e.g. `7/216`)
 
-#### 2. How many different arrangements can be made if Stan (a boy), 5 other boys and 5 other girls are to take a photo together in a horizontal line, where Tom must either stand at the leftmost or rightmost end of the line, and boys and girls must stand alternatively in the photo?
+#### 2. How many different arrangements can be made if Stan (a boy), 5 other boys and 5 other girls are to take a photo together in a horizontal line, where Stan must either stand at the leftmost or rightmost end of the line, and boys and girls must stand alternatively in the photo?
 
 #### 3. Assume that function `r()` returns a random integer between `0` and `65535` inclusive uniformly and independently. Which of the following expressions generate an integer between `0` and `2` inclusive randomly with equal probability?  (choose any number of them, or none at all)
 a. `r() % 3`
