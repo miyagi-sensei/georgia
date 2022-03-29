@@ -256,7 +256,8 @@ int main() {
 ```
 G: ______________
 
-#### 12. The input to the following program is 401 integers between `1` and `1000` inclusive, given in non-descending order. Complete the following program so that it outputs an integer `x`, such that the sum of absolute difference `x` and each input number is minimized. If there is multiple `x` that can achieve the same minimum sum, the program should output the least `x`.
+#### 12. The input to the following program is 401 integers between `1` and `1000` inclusive, given in non-descending order. Complete the following program so that it outputs an integer `x`, such that the sum of absolute difference of `x` and each input number is minimized. If there are multiple `x` that can achieve the same minimum sum, the program should output the least `x`.
+
 ```cpp
 int a[401];
 int x, minSum, temp, i, j;
