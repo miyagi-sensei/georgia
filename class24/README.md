@@ -28,7 +28,7 @@ What is the number of possible different outputs?
 |1|10 seconds|0.2|
 |2|10 seconds|0.25|
 |3|15 seconds|0.2|
-|4|40 seconds|0.5|
+|4|30 seconds|0.5|
 
 You are going to unlock the doors one by one in any order you want, until you find the gift. What is the best strategy to unlock the doors so that the expected time required can be minimized? (The time walking between doors can be omitted) Choose one answer
 
