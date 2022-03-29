@@ -8,6 +8,7 @@ Submit your answers by email to haye@miyagiacademy.com or by DM over Discord.
 
 #### 3. Assume that function `r()` returns a random integer between `0` and `65535` inclusive uniformly and independently. Which of the following expressions generate an integer between `0` and `2` inclusive randomly with equal probability?  (choose any number of them, or none at all)
 a. `r() % 3`
+
 b. `(r() + r() + r()) % 3`
 
 #### 4. Assume that function `myrand(n)` returns an integer from `0` to `n-1` inclusive randomly with equal probability. Consider the following program:
@@ -33,8 +34,11 @@ What is the number of possible different outputs?
 You are going to unlock the doors one by one in any order you want, until you find the gift. What is the best strategy to unlock the doors so that the expected time required can be minimized? (The time walking between doors can be omitted) Choose one answer
 
 A. Door 2 -> Door 1 -> Door 3 -> Door 4
+
 B. Door 4 -> Door 3 -> Door 1 -> Door 2
+
 C. Door 2 -> Door 3 -> Door 4 -> Door 1
+
 D. Door 2 -> Door 1 -> Door 4 -> Door 3
 
 #### 7. Consider the following program:
