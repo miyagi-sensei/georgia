@@ -460,7 +460,7 @@ The bug can be fixed by changing exactly one line. Find the line and correct it 
 7. C: `s < x && s < y` or `s < min(x, y)`,<br> D: `a[s] < b[s]`, <br>E: `a[s] > b[s]`, <br>F: `s`
 8. `6`, <br>`3`, <br>`25`
 9. `101 101 1820`
-10. D
+10. B
 11. `"ARENA"[i] - 'A'` or `(a[i]+9)%26` or `a[i] + (i%2)*26 - 17`
 12. H: `abs(i - a[j])`, <br>I: `temp`, <br>J: `i`, <br>K: `a[200]`
 13. B & C
