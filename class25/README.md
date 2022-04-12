@@ -1,16 +1,16 @@
 # Class 25 - Algorithmic Thinking
 Submit your answers by email to haye@miyagiacademy.com or by DM over Discord.
 
-#### 1. **Make 1000** is an interesting game that Anna and Ben are playing. The counter initially begins with 0. Each turn, the player is allowed to add an arbitrary number from 1 to 7 to the counter. They are not allowed to skip their turns. Players will take their turns alternativesly. They player that makes the counter greater than or equal to 1000 will win the game. If Anna goes first, who will win the game? (Assume that both play optimally throughout the game) Choose only one.
-A. Anna
-B. Bun
-C. Both of them may win, depending on the initial number called by Anna
-D. Both of them may win, because there does not exist an optimal strategy
+#### 1. **Make 1000** is an interesting game that Anna and Ben are playing. The counter initially begins with 0. Each turn, the player is allowed to add an arbitrary number from 1 to 7 to the counter. They are not allowed to skip their turns. Players will take their turns alternativesly. The player that makes the counter greater than or equal to 1000 will win the game. If Anna goes first, who will win the game? (Assume that both play optimally throughout the game) Choose only one.
+- A. Anna
+- B. Bun
+- C. Both of them may win, depending on the initial number called by Anna
+- D. Both of them may win, because there does not exist an optimal strategy
 
 #### 2. Consider the **Make 1000** game above, which of the following modification(s) to the game will change your answer in the previous question? Note: The modification should be considered independently - only one modification shall be applied at one time. (Choose any number of them, or none at all)
-A. Set the counter to a random number `X` before starting the game.
-B. Each player is allowed to use `0` for a maximum of `Y` times (to be determined before the game starts) in the whole game as the number to add to the counter in a turn.
-C. Additional rule: All numbers must be used for at least `Z` times before a number can be used the (`Z+1`)-th times (`Z` is the current maximum number of times that a particular number is being used)
+- A. Set the counter to a random number `X` before starting the game.
+- B. Each player is allowed to use `0` for a maximum of `Y` times (to be determined before the game starts) in the whole game as the number to add to the counter in a turn.
+- C. Additional rule: All numbers must be used for at least `Z` times before a number can be used the (`Z+1`)-th times (`Z` is the current maximum number of times that a particular number is being used)
 
 #### 3. Consider the 5x5 grid below labeled `A` with black and white cells.
 
@@ -123,12 +123,8 @@ int main() {
 
 (c\) A coin system `c[0..n-1]` is said to be *simple*, if Alice's greedy algorithm can produce an optimal answer for every positive integer `m` not greater than 10000. Which of the following coin systems is/are simple? Write down the corresponding indices of all simple coin systems. (Example: B, C, D)
 
-A. `{1, 8, 20}`
-
-B. `{1, 2, 5, 10}`
-
-C. `{1, 2, 4, 8, 10}`
-
-D. `{1, 4, 7, 10, 13, 16, 19}`
-
-E. `{1, 20, 30, 40, 50, 60, 70}`
+- A. `{1, 8, 20}`
+- B. `{1, 2, 5, 10}`
+- C. `{1, 2, 4, 8, 10}`
+- D. `{1, 4, 7, 10, 13, 16, 19}`
+- E. `{1, 20, 30, 40, 50, 60, 70}`
