@@ -1,7 +1,7 @@
 # Class 25 - Algorithmic Thinking
 Submit your answers by email to haye@miyagiacademy.com or by DM over Discord.
 
-#### 1. **Make 1000** is an interesting game that Anna and Ben are playing. The counter initially begins with 0. Each turn, the player is allowed to add an arbitrary number from 1 to 7 to the counter. They are not allowed to skip their turns. Players will take their turns alternativesly. The player that makes the counter greater than or equal to 1000 will win the game. If Anna goes first, who will win the game? (Assume that both play optimally throughout the game) Choose only one.
+#### 1. **Make 1000** is an interesting game that Anna and Ben are playing. The counter initially begins with 0. Each turn, the player is allowed to add an arbitrary number from 1 to 7 to the counter. They are not allowed to skip their turns. Players will take their turns alternatively. The player that makes the counter greater than or equal to 1000 will win the game. If Anna goes first, who will win the game? (Assume that both play optimally throughout the game) Choose only one.
 - A. Anna
 - B. Ben
 - C. Both of them may win, depending on the initial number called by Anna
