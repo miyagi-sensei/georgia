@@ -63,7 +63,7 @@ Complete the function `f` so that it reverses the first `k` elements in the arra
 Complete the function `g` so that it reverses the last `k` elements in the array `a`. You may make use of the function `swap` and `f`.
 - E: _______________________
 
-#### 6. Consider a rectangular grid, where the cell labeled with `S` is the *starting-point*, cell labeled `T` is the *target-point*, and cells labeled with `C` are the *checkpoints*. We call a path an *interesting path* if and only if it is a path that walk from the starting-point to the target-point by repeatedly walking to either the cell below or on the right, and passing through **EXACTLY ONE** checkpoint. For example, for the following 3x3 grid, there are 4 distinct interesting paths
+#### 6. Consider a rectangular grid, where the cell labeled with `S` is the *starting-point*, cell labeled `T` is the *target-point*, and cells labeled with `C` are the *checkpoints*. We call a path an *interesting path* if and only if it is a path that walk from the starting-point to the target-point by repeatedly walking to either the cell below or on the right, and passing through **EXACTLY ONE** checkpoint. For example, for the following 3x3 grid, there are 4 distinct interesting paths.
 
 ![](https://i.imgur.com/SakTax6.png)
 
