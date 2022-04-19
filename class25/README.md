@@ -89,7 +89,7 @@ What is the number of arrangements tiling a 3x12 grid with only 1x3 tiles?
 
 Alice wants to solve the coin changing problem: what is the minimum number of coins needed to make a change of exactly `m` dollars? She proposes the following greedy algorithm: first use as many as possible the most valuable coin, then use as many as possible the second most valuable coin, and so on.
 
-(a) Complete the following program so that it implements the greedy algorithm described aboev. At the end of the program, `b[i]` should equal the number of `c[i]`-dollar coins used. The input and output sections of the program are omitted. You may assume that `1 ≤ n ≤ 100`.
+(a) Complete the following program so that it implements the greedy algorithm described above. At the end of the program, `b[i]` should equal the number of `c[i]`-dollar coins used. The input and output sections of the program are omitted. You may assume that `1 ≤ n ≤ 100`.
 
 ```cpp
 int b[100], c[100];
