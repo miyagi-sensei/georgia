@@ -51,9 +51,10 @@ void g(int k) {
     _________E________
 }
 ```
-Assume that `a` is an array of 100 integers and `k` is an integer between 0 and 100 inclusive.
 Complete the function `swap` so that it swaps the values of `a[x]` and `a[y]`. You must NOT make use of the functions `f` or `g`.
 - C: _______________________
+
+Assume that `a` is an array of 100 integers and `k` is an integer between 0 and 100 inclusive.
 
 Complete the function `f` so that it reverses the first `k` elements in the array `a`.
 - D: _______________________
