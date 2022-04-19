@@ -128,3 +128,9 @@ int main() {
 - C. `{1, 2, 4, 8, 10}`
 - D. `{1, 4, 7, 10, 13, 16, 19}`
 - E. `{1, 20, 30, 40, 50, 60, 70}`
+
+### 10 J222 - Spicy Ramen
+- Subtask 1 & 2
+- Subtask 3
+- All subtasks
+
