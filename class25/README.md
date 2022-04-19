@@ -127,7 +127,7 @@ int main() {
 - D. `{1, 4, 7, 10, 13, 16, 19}`
 - E. `{1, 20, 30, 40, 50, 60, 70}`
 
-### 10 J222 - Spicy Ramen
+#### 10. [J222 - Spicy Ramen](https://judge.hkoi.org/task/J222)
 - Subtask 1 & 2
 - Subtask 3
 - All subtasks
