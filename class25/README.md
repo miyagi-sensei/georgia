@@ -133,3 +133,27 @@ int main() {
 - Subtask 3
 - All subtasks
 
+---
+
+# Answer Key
+1. B
+2. A only (For modification C, each round of 7 numbers is 28 total and the 2 players are forced to do 35 rounds which sums to 980. At the end of the 35th round, It's Ben's turn and Ben should pick `4` so that he maintains a distance of `16` from `1000`. At this point Ben can adopt the same strategy to make sure he wins.)
+3. Only (i)
+4. A: `a + x`, B: `20100 - a`
+5.  - C: `t = a[x]; a[x] = a[y]; a[y] = t;`
+    - D: `k/2`, `k-i`, `(k+1) / 2` or `k-i-1` (this one is my favorite)
+    - E: `f(100); f(k); f(100);`
+6. F: `E1+A5`, G: `C1+B4` or `A3+D2` or `E3+B4` or `C5+D2`
+7. 96 (Worst case is `aaaabbbbccccddddeeee...vvvvwwwxxxyyyzzz`)
+8. `60`
+9. H: `i=n-1; i>=0; i--`, I: `m > 0`, J: `m - c[i]`, `c[1]`: 5, `c[2]`: 6
+A, C, E are easier because you can find counter-examples to prove that they're not *simple* (A: 24, B: 16, C: 80). B and D are harder because **you can't prove a negative**. And for D it's particularly hard.
+
+> Does any dog talk? "No dogs can talk" - proving this is hard, indeed impossible. But disproving it only requires that you find 1 talking dog. That's why people say "you can't prove a negative."
+
+But we can prove it with logical deduction:
+`P(m)` is the minimum number of coins to get to exactly `m` dollars.
+`P(m) = min(P(m-c[i])) + 1` --- for all `i` where `c ≤ m`
+- If a set of `c[]` is *simple*, greedy always get you the right answer. 
+- That means the largest `c[i]` is the right choice, i.e. `P(m-c[i]) ≤ P(m-c[i-1]) ≤ P(m-c[i-2]) ≤ ... ≤ P(m-c[0])`
+- But in D, the `c[i]`'s are successively increasing by 3. So if we can prove: `P(k-3) <= P(k)` then we are done. (Is it evident? Think through different cases such as `P(2) = P(5)`, `P(19) < P(22)`, `P(18) = P(21)`, `P(22) = P(25)`, `P(38) < P(41)`, etc.)
