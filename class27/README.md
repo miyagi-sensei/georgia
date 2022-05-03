@@ -1,4 +1,4 @@
-# Class 27 - J222 Spicy Ramen
+# Class 27 & 28 - J222 Spicy Ramen
 You can brute force subtask 1 & 2:
 ```
 count = 0
