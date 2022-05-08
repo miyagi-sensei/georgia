@@ -47,4 +47,4 @@ carefully counting the ranges where the height is above K
 
 It's great if you already understand the idea of the full solution already. If not, don't worry, this video below should get you there.
 
-[J222 Illustration](https://youtu.be/0Vq5E8QHK8w)
+[J222 Illustration](https://youtu.be/NCWV83okqNs)
