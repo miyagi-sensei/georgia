@@ -14,22 +14,6 @@ Submit your answers by email to haye@miyagiacademy.com or by DM over Discord. Do
 
 #### 1. Alice has an integer between -32 and 32 (inclusive) in her mind. You can ask her some questions, each of which must be in the form of "is your number strictly less than x" (x can be any real number). You can decide the question you are going to ask according to the answers of previous questions. In the worst case, at least how many questions should be asked to know the exact value of the integer Alice has in mind?
 
-#### 2. What is the output of the program?
-```cpp
-int i, sum, sum2;
-int main() {
-    sum = 0;
-    sum2 = 0;
-    for (i=1; i<=80; i++) {
-        if (i % 2 == 0)
-            sum += i;
-            sum2 += i * i;
-    }
-    cout << sum << " " << sum2;
-}
-```
-#### 1. Alice has an integer between -32 and 32 (inclusive) in her mind. You can ask her some questions, each of which must be in the form of "is your number strictly less than x" (x can be any real number). You can decide the question you are going to ask according to the answers of previous questions. In the worst case, at least how many questions should be asked to know the exact value of the integer Alice has in mind?
-
 --- 
 
 #### 2. What is the output of the program?
