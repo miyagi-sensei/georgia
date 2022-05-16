@@ -118,3 +118,15 @@ int main() {
 - B: _________________________
 
 ---
+
+## Answer Key
+1. 7
+2. C - `1640 173880`
+3. true
+4. `f(a - m) + f(b - m) + f(c - m)`
+5. A
+6. i && ii
+7. i & iii
+8. 1
+9. D (there can't be 2 undefeated teams)
+10. `x*m + y*n - 2*x*y`
