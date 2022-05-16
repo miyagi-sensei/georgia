@@ -19,4 +19,56 @@
 |9|15|5
 |59|131|49
 
-[Graph Theory](https://assets.hkoi.org/training2019/g-i.pdf)
+## [Graph Theory Slidedeck](https://assets.hkoi.org/training2019/g-i.pdf)
+
+### Representation snippets
+#### Adjacency Matrix
+```cpp
+int Graph[6][6] = 
+{   {0,0,0,0,0,0},
+    {0,0,1,0,1,0},
+    {0,0,0,0,1,1},
+    {0,1,0,0,0,0},
+    {0,0,0,0,0,0},
+    {0,0,0,1,0,0}};
+```
+
+#### Edge List
+```cpp
+    pair< pair<int, int>, int> Edges[7];
+    Edges[1] = {{1, 2}, 1};
+    Edges[2] = {{1, 4}, 1};
+    Edges[3] = {{2, 4}, 1};
+    Edges[4] = {{2, 5}, 1};
+    Edges[5] = {{3, 1}, 1};
+    Edges[6] = {{5, 3}, 1};
+```
+or use `struct`
+```cpp
+    struct Edge {
+        int from, to, weight;
+    };
+    Edge Edges[7];
+    Edges[1] = {1, 2, 3};
+    Edges[2] = {1, 4, 1};
+    Edges[3] = {2, 4, 1};
+    Edges[4] = {2, 5, 1};
+    Edges[5] = {3, 1, 1};
+    Edges[6] = {5, 3, 1};
+```
+
+### Adjacency List
+```cpp
+    vector<int> Graph[6];
+    Graph[1].push_back(2);
+    Graph[1].push_back(4);
+    Graph[2].push_back(4);
+    Graph[2].push_back(5);
+    Graph[3].push_back(1);
+    Graph[5].push_back(3);
+```
+
+## Exercises
+- DFS: [01035 Patrol Area](https://judge.hkoi.org/task/01035)
+- BFS: [M1311 Dokodemo Door](https://judge.hkoi.org/task/M1311)
+- Extra Credit: [T022 Bomber Man](https://judge.hkoi.org/task/T022)
