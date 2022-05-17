@@ -129,4 +129,4 @@ int main() {
 7. i & iii
 8. 1
 9. D (there can't be 2 undefeated teams)
-10. `x*m + y*n - 2*x*y`
+10. `x*m + y*n - 2*x*y` (`x*m + y*n - x*y` was also accepted although a careful parsing of the language of the question would unambiguously rule it wrong. I deem it an acceptable mistake though.)
