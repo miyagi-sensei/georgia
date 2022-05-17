@@ -47,10 +47,10 @@ int Graph[6][6] =
     Edges[3] = {{2, 4}, 1};
     Edges[4] = {{2, 5}, 1};
     Edges[5] = {{3, 1}, 1};
-    Edges[6] = {{5, 3}, 1};
-    Edges[2].first.first = 3; // sets "from" of 2nd edge
-    cout << Edges[2].first.second << endl; // prints "to" of 2nd edge
-    cout << Edges[2].second << endl; // prints "weight" of 2nd edge
+    Edges[6] = {{4, 3}, 1};
+    Edges[6].first.first = 5; // sets "from" of 6thedge
+    cout << Edges[6].first.second << endl; // prints "to" of 6th edge
+    cout << Edges[6].second << endl; // prints "weight" of 6th edge
 ```
 or use `struct`
 ```cpp
@@ -63,10 +63,10 @@ or use `struct`
     Edges[3] = {2, 4, 1};
     Edges[4] = {2, 5, 1};
     Edges[5] = {3, 1, 1};
-    Edges[6] = {5, 3, 1};
-    Edges[2].from = 3;
-    cout << Edges[2].to << endl;
-    cout << Edges[2].weight << endl;
+    Edges[6] = {4, 3, 1};
+    Edges[6].from = 5;
+    cout << Edges[6].to << endl;
+    cout << Edges[6].weight << endl;
 ```
 
 ### Adjacency List
