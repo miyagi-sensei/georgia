@@ -19,7 +19,9 @@
 |9|15|5
 |59|131|49
 
-## [Graph Theory Slidedeck](https://assets.hkoi.org/training2019/g-i.pdf)
+## Graph Theory Slidedeck
+- [2019 version](https://assets.hkoi.org/training2019/g-i.pdf)
+- [2021 version](https://assets.hkoi.org/training2022/g-i.pdf)
 
 ### Representation snippets
 #### Adjacency Matrix
