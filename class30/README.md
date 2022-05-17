@@ -24,6 +24,10 @@
 - [2021 version](https://assets.hkoi.org/training2022/g-i.pdf)
 
 ### Representation snippets
+<img src="https://i.imgur.com/SGGhor2.png" width="400">
+
+The following are different ways to represent the directed graph above
+
 #### Adjacency Matrix
 ```cpp
 int Graph[6][6] = 
@@ -44,6 +48,9 @@ int Graph[6][6] =
     Edges[4] = {{2, 5}, 1};
     Edges[5] = {{3, 1}, 1};
     Edges[6] = {{5, 3}, 1};
+    Edges[2].first.first = 3; // sets "from" of 2nd edge
+    cout << Edges[2].first.second << endl; // prints "to" of 2nd edge
+    cout << Edges[2].second << endl; // prints "weight" of 2nd edge
 ```
 or use `struct`
 ```cpp
@@ -57,6 +64,9 @@ or use `struct`
     Edges[4] = {2, 5, 1};
     Edges[5] = {3, 1, 1};
     Edges[6] = {5, 3, 1};
+    Edges[2].from = 3;
+    cout << Edges[2].to << endl;
+    cout << Edges[2].weight << endl;
 ```
 
 ### Adjacency List
@@ -68,6 +78,11 @@ or use `struct`
     Graph[2].push_back(5);
     Graph[3].push_back(1);
     Graph[5].push_back(3);
+
+    // to iterate through all the neighbhors of vertex 2:
+    for (auto v: Graph[2]) {
+        travel(v);    // travel() is the recursive DFS function
+    }
 ```
 
 ## Exercises
