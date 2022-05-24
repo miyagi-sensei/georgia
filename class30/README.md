@@ -85,7 +85,30 @@ or use `struct`
     }
 ```
 
+---
+
 ## Exercises
 - DFS: [01035 Patrol Area](https://judge.hkoi.org/task/01035)
 - BFS: [M1311 Dokodemo Door](https://judge.hkoi.org/task/M1311)
 - Extra Credit: [T022 Bomber Man](https://judge.hkoi.org/task/T022)
+- Extra Credit: [USACO Redistributing Gifts](http://www.usaco.org/index.php?page=viewproblem2&cpid=1206)
+
+For [USACO Redistributing Gifts](http://www.usaco.org/index.php?page=viewproblem2&cpid=1206), use this [brute force solution](https://github.com/miyagi-sensei/usaco/blob/main/usaco2002_02_silver1.py) to verify your understanding of the problem:
+
+For example, the below input:
+```
+5
+3 2 1 5 4
+1 4 3 2 5
+5 3 2 4 1
+3 4 1 2 5
+4 2 5 3 1
+```
+should yield the following output:
+```
+3
+1
+5
+3
+4
+```
