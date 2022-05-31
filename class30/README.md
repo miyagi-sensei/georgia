@@ -112,3 +112,4 @@ should yield the following output:
 3
 4
 ```
+Register on the USACO website so that you can submit code.
