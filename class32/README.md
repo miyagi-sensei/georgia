@@ -1,7 +1,7 @@
 # Class 32 - Graph Theory II
 ## Dijkstra
 [Slidedeck 2019](https://assets.hkoi.org/training2019/g-ii.pdf)
-At page 30, most of the graph are relatively unexplored. How does the algorithm know that 7 is finalized, that there won't be a shorter path through 4 (imagine some hypothetical edges like below)?
+At page 30, most of the graph are relatively unexplored. How does the algorithm know that 7 is finalized, that there won't be a shorter path through some other unfinalized node (imagine some hypothetical edges like below)?
 <img src="https://i.imgur.com/aQTz13H.jpg" width="600">
 
 - The contradiction would be that if those edges exist, then 7 would not be the next closest unfinalized vertex. 4 would be (with a distance of 10).
