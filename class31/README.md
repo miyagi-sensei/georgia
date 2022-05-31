@@ -24,8 +24,10 @@ In C++ terms, the main function would look like this:
         insert(num);
     }
     for (i=1; i<N; i++) {
-        a = extract_least();
-        b = extract_least();
+        a = get_least();
+        pop_least();
+        b = get_least();
+        pop_least();
         insert(a + b);
         sum += a + b;
     }
@@ -35,28 +37,34 @@ A naive way to implement `insert` and `extract_least` would be:
 ```cpp
 #include <vector>
 #include <algorithm>
-vector<int> db;
+vector<int> DB;
 
 void insert(int x) {
-    db.push_back(x);
-    sort(db.begin(), db.end());
+    DB.push_back(x);
+    sort(DB.begin(), DB.end());
 }
 
-int extract_least() {
-    int min_val = db[0];
-    db.erase(db.begin());
-    return min_val;
+int get_least() {
+    return DB[0];
+}
+
+void pop_least() {
+    DB.erase(DB.begin());
 }
 ```
+
+If you're unfamiliar with `vector`, it's time to learn it: [vector tutorial](https://www.programiz.com/cpp-programming/vectors)
+
 ### Time Complexity
 |function|complexity|
 |---|---|
 |`insert`|O(`NlogN`)|
-|`extract_least`|O(N)|
+|`get_least`|O(1)|
+|`pop_least`|O(N)|
 
-- You can optimize `insert` and make it O(1) (without sorting). But `extract_least` would have to be at least O(N) as long as you're choosing array or vector as the data structure.
+- You can optimize `insert` and make it O(1) (without sorting). But `get_least` and `pop_least` would have to be at least O(N) as long as you're using array or vector as the data structure.
 - With N iterations, the program would have O(N<sup>2</sup>) time complexity
-- Try to implement using this approach (O(1) `insert` and O(N) `extract_least`)
+- Try to implement using this approach (O(1) `insert` and O(N) `get_least` and `pop_least`)
 
 You can solve this problem using a *Priority Queue* because it has the following time complexity for these operations:
 |function|complexity|
@@ -65,18 +73,21 @@ You can solve this problem using a *Priority Queue* because it has the following
 |`get_least`|O(1)|
 |`pop_least`|O(log N)|
 
-Implementing these `insert` and `extract_least` using priority queue would give you O(`NlogN`) solution:
-```cpp
-priority_queue<long long> db;
+---
 
+Implementing these using priority queue would give you O(`NlogN`) solution:
+```cpp
+priority_queue<int> DB;
 void insert(int x) {
-    db.push(-x);
+    DB.push(-x);
 }
 
-int extract_least() {
-    int min_val = -db.top();
-    db.pop();
-    return min_val;
+int get_least() {
+    return -DB.top();
+}
+
+void pop_least() {
+    DB.pop();
 }
 ```
 (Note `priority_queue` puts the largest item on top so we need to make all numbers negative to get the desired outcome)
@@ -91,38 +102,38 @@ Sample implementation:
 #define INF 400000001
 
 int N;
-int db[160000];
-int last = 1;
+int DB[160000];
+int Last = 1;
 
 void insert(int x) {
-    int i = last;
-    db[last] = x;
-    while (i > 1 && db[i] < db[i/2] ) {
-        swap(db[i], db[i/2]);
+    int i = Last;
+    DB[Last] = x;
+    while (i > 1 && DB[i] < DB[i/2] ) {
+        swap(DB[i], DB[i/2]);
         i = i / 2;
     }
-    db[last*2] = INF;
-    db[last*2 + 1] = INF;
-    last++;
+    DB[Last*2] = INF;
+    DB[Last*2 + 1] = INF;
+    Last++;
 }
 
 int get_least() {
-    return db[1];
+    return DB[1];
 }
 
 void pop_least() {
-    last--;
-    db[1] = db[last];
-    db[last] = INF;
+    Last--;
+    DB[1] = DB[Last];
+    DB[Last] = INF;
     int i = 1, next;
     while (true) {
-        if (db[2*i] <= db[2*i+1])
+        if (DB[2*i] <= DB[2*i+1])
             next = 2*i;
         else
             next = 2*i + 1;
-        if (db[i] <= db[next])
+        if (DB[i] <= DB[next])
             break;
-        swap(db[i], db[next]);
+        swap(DB[i], DB[next]);
         i = next;
     }
 }
