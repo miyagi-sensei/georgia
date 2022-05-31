@@ -33,7 +33,7 @@ In C++ terms, the main function would look like this:
     }
     cout << sum << endl;
 ```
-A naive way to implement `insert` and `extract_least` would be:
+A naive way to implement `insert`, `get_least` and `pop_least` would be:
 ```cpp
 #include <vector>
 #include <algorithm>
