@@ -112,4 +112,7 @@ should yield the following output:
 3
 4
 ```
+### Graph representation of the problem:
+<img src="https://i.imgur.com/z6IZEq1.jpg" width="400">
+
 Register on the USACO website so that you can submit code.
