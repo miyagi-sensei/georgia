@@ -1,0 +1,10 @@
+# More exercises
+1. HPA: [Addition](https://judge.hkoi.org/task/01024), [Multiplication](https://judge.hkoi.org/task/01026), [Factorial](https://judge.hkoi.org/task/01027)
+2. [Permutations](https://judge.hkoi.org/task/01031), [Combinations](https://judge.hkoi.org/task/01037)
+3. [Coin](https://judge.hkoi.org/task/05011)
+4. [Tomato](https://judge.hkoi.org/task/M0412), [J194 Graffiti](https://judge.hkoi.org/task/J194)
+5. [Corona and Masks](https://judge.hkoi.org/task/M2003)
+6. [Marshmallows](https://judge.hkoi.org/task/M2111)
+7. [J211 Paint Shop[(https://judge.hkoi.org/task/J211)
+8. [J193 Hyper Knight](https://judge.hkoi.org/task/J193)
+9. [J161 Model Answer](https://judge.hkoi.org/task/J161)
