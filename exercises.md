@@ -1,6 +1,7 @@
 # More exercises
 1. HPA: [Addition](https://judge.hkoi.org/task/01024), [Multiplication](https://judge.hkoi.org/task/01026), [Factorial](https://judge.hkoi.org/task/01027)
 2. [Permutations](https://judge.hkoi.org/task/01031), [Combinations](https://judge.hkoi.org/task/01037)
+3. [Largest Rectangle in Histogram](https://judge.hkoi.org/task/32462)
 4. [Tomato](https://judge.hkoi.org/task/M0412), [J194 Graffiti](https://judge.hkoi.org/task/J194)
 5. [Corona and Masks](https://judge.hkoi.org/task/M2003)
 6. [Marshmallows](https://judge.hkoi.org/task/M2111)
