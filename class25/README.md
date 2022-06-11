@@ -146,7 +146,7 @@ int main() {
 6. F: `E1+A5`, G: `C1+B4` or `A3+D2` or `E3+B4` or `C5+D2`
 7. 96 (Worst case is `aaaabbbbccccddddeeee...vvvvwwwxxxyyyzzz`)
 8. `60`
-9. H: `i=n-1; i>=0; i--`, I: `m > 0`, J: `m - c[i]`, `c[1]`: 5, `c[2]`: 6
+9. H: `i=n-1; i>=0; i--`, I: `m >= c[i]`, J: `m - c[i]`, `c[1]`: 5, `c[2]`: 6
 A, C, E are easier because you can find counter-examples to prove that they're not *simple* (A: 24, B: 16, C: 80). B and D are harder because **you can't prove a negative**. And for D it's particularly hard.
 
 > Does any dog talk? "No dogs can talk" - proving this is hard, indeed impossible. But disproving it only requires that you find 1 talking dog. That's why people say "you can't prove a negative."
