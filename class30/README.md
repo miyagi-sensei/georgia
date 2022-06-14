@@ -90,8 +90,8 @@ or use `struct`
 ## Exercises
 - DFS: [01035 Patrol Area](https://judge.hkoi.org/task/01035)
 - BFS: [M1311 Dokodemo Door](https://judge.hkoi.org/task/M1311)
-- Extra Credit: [T022 Bomber Man](https://judge.hkoi.org/task/T022)
-- Extra Credit: [USACO Redistributing Gifts](http://www.usaco.org/index.php?page=viewproblem2&cpid=1206)
+- Extra Credit: [T022 Bomber Man](https://judge.hkoi.org/task/T022) /   [solution](https://replit.com/@haye/dgs#t022/solution.cpp)
+- Extra Credit: [USACO Redistributing Gifts](http://www.usaco.org/index.php?page=viewproblem2&cpid=1206) /   [solution](https://replit.com/@haye/dgs#usaco/2022_02_silver1/solution.cpp)
 
 For [USACO Redistributing Gifts](http://www.usaco.org/index.php?page=viewproblem2&cpid=1206), use this [brute force solution](https://github.com/miyagi-sensei/usaco/blob/main/usaco2002_02_silver1.py) to verify your understanding of the problem:
 
