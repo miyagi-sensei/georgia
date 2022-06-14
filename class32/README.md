@@ -12,3 +12,4 @@ At page 30, most of the graph are relatively unexplored. How does the algorithm 
 - [01041 - Shortest Path](https://judge.hkoi.org/task/01041)
 #### Extra Credit
 - [T033 - Second Trip Discount](https://judge.hkoi.org/task/T033)
+- [solution](https://replit.com/@haye/dgs#t033/solution.cpp)
