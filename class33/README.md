@@ -110,18 +110,19 @@ void travel(Vector a, Vector b) {
     int up = max(y1, y2) + D;
     u = b - a;
     int limit = D * D * u.magnitude();  // multiply by u^2 to avoid division which causes floating point precision problem
-    int x, y, dist;
+    int x, y;
+    double dist;
     for (x=left; x<=right; x++) {
         for (y=down; y<=up; y++) {
             e = {x, y};
             v = e - a;
-            if (u.dot(v) <= 0)  // outside the A side of the rectangle
-                dist = v.magnitude() * u.magnitude();
-            else if (u.dot(v) > u.magnitude())  // outside the B side of the rectangle
-                dist = (e - b).magnitude() * u.magnitude();
+            if (u.dot(v) <= 0) // outside the A side of the rectangle
+                dist = v.magnitude();
+            else if (u.dot(v) > u.magnitude() * u.magnitude())  // outside the B side of the rectangle
+                dist = (e - b).magnitude();
             else
-                dist = u.cross(v) * u.cross(v);
-            if (dist <= limit)
+                dist = abs(u.cross(v)) / u.magnitude();
+            if (dist <= D)
                 Infected.insert({x, y});
         }
     }
