@@ -19,7 +19,7 @@ There are many ways to derive a computational formula for EC, i.e. the distance 
 First define △x = x<sub>2</sub> - x<sub>1</sub> and △y = y<sub>2</sub> - y<sub>1</sub>
 Then think of C as (x<sub>1</sub> + *t*\*△x, y<sub>1</sub> + *t*\*△y) whereas 0 ≤ t ≤ 1.
 Using the fact that EC and AB are perpendicular, you can solve for t:
-![](https://latex.codecogs.com/svg.image?\inline&space;\LARGE&space;\bg{white}t=\frac{\Delta&space;x(x_1-x)&plus;\Delta&space;y(y_1-y)}{\Delta&space;x^2&plus;\Delta&space;y^2})
+![](https://latex.codecogs.com/svg.image?\inline&space;\LARGE&space;\bg{white}t=\frac{\Delta&space;x(x-x_1)&plus;\Delta&space;y(y-y_1)}{\Delta&space;x^2&plus;\Delta&space;y^2})
 
 Clipping t within the range [0, 1], you can then easily calculate the distance of (x, y) from the line segment AB:
 dist<sup>2</sup> = [x - (x<sub>1</sub> + t*△x)]<sup>2</sup> + [y - (y<sub>1</sub> + t * △y)]<sup>2</sup>
