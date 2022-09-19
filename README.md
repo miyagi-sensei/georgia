@@ -32,7 +32,7 @@ If everyone get a github account then I can turn this repo private. (send me you
 | `rm filename` | Deletes a file |
 | `mkdir directoryname` | Creates a new directory in the present working directory or a at the specified path |
 | `rmdir directoryname` | Deletes a directory |
-| `mv` | Renames a directory |
+| `mv dir_name new_dir_name` | Renames a directory |
 | `g++ code.cpp` |  compile a C++ program to a.out |
 | `./a.out` | Run program a.out in the current folder |
 | `./a.out < in1.txt` | Run a.out and redirect contents of in1.txt as keyboard input |
